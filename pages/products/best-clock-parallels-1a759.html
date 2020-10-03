@@ -1,0 +1,247 @@
+<div id="product-form-quick-749351370809" class="product-quick-shop" style="width: 100%;">
+  <form class="variations_form product-form" id="product-form-quick-749351370809" action="https://woodmart-electronics.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="749351370809" data-id="best-clock-parallels-1"> 
+    <div class="product-options" > 
+      <select id="product-selectors-749351370809" name="id" style="display: none;">
+        
+        
+        <option  selected="selected"  value="7975462010937">Black - $599.00 USD</option>
+        
+        
+        
+        <option  value="7975462076473">Beige - $599.00 USD</option>
+        
+        
+        
+        <option  value="7975462109241">Yellow - $599.00 USD</option>
+        
+        
+      </select> 
+    </div>  
+    <div class="single_variation_wrap"> 
+      <div class="shopify-variation-add-to-cart variations_button shopify-variation-add-to-cart-disabled">
+        <div class="quantity"> 
+          <input type="text" id="qty" name="quantity" value="1" min="1" class="quantity-selector"> 
+          <div class="plus-minus">
+            <div class="increase items" onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN( qty )) result.value++;return false;">
+              <i class="icon-up-dir"></i>
+            </div>
+            <div class="reduced items" onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN( qty ) &amp;&amp; qty > 1 ) result.value--;return false;">
+              <i class="icon-down-dir"></i>
+            </div>
+          </div>
+        </div> 
+        <button type="submit" name="add" class="single_add_to_cart_button button">  
+          <span data-translate="products.product.add_to_cart">Add to Cart</span>
+        </button>
+      </div>
+    </div>
+  </form>   
+</div> 
+<style>
+  
+  .quick-shop-wrapper .product-options .selector-wrapper {
+    display: none;
+  }
+   
+</style>
+<script> 
+  Shopify.quickshopOptionsMap749351370809 = {};
+  Shopify.quickshopUpdateOptionsInSelector749351370809 = function(selectorIndex) { 
+    switch (selectorIndex) {
+      case 0:
+        var key = 'root';
+        var selector = jQuery('#product-form-quick-749351370809 .single-option-selector:eq(0)');
+        break;
+      case 1:
+        var key = jQuery('#product-form-quick-749351370809 .single-option-selector:eq(0)').val();
+        var selector = jQuery('#product-form-quick-749351370809 .single-option-selector:eq(1)');
+        break;
+      case 2:
+        var key = jQuery('#product-form-quick-749351370809 .single-option-selector:eq(0)').val();
+        key += ' / ' + jQuery('#product-form-quick-749351370809 .single-option-selector:eq(1)').val();
+        var selector = jQuery('#product-form-quick-749351370809 .single-option-selector:eq(2)');
+    }
+
+    var initialValue = selector.val();
+    selector.empty();
+    var availableOptions = Shopify.quickshopOptionsMap749351370809[key];
+    if (availableOptions && availableOptions.length) {
+      for (var i = 0; i < availableOptions.length; i++) {
+        var option = availableOptions[i];
+        var newOption = jQuery('<option></option>').val(option).html(option);
+        selector.append(newOption);
+      }
+      jQuery('#product-form-quick-749351370809 .swatch[data-option-index="' + selectorIndex + '"] .swatch-element').each(function() {
+        if (jQuery.inArray(jQuery(this).attr('data-value'), availableOptions) !== -1) {
+          jQuery(this).removeClass('soldout').show().find(':radio').removeAttr('disabled', 'disabled').removeAttr('checked');
+        } else {
+          jQuery(this).addClass('soldout').hide().find(':radio').removeAttr('checked').attr('disabled', 'disabled');
+        }
+      });
+      if (jQuery.inArray(initialValue, availableOptions) !== -1) {
+        selector.val(initialValue);
+      }
+      selector.trigger('change');
+    }
+  };
+  Shopify.quickshopLinkOptionSelectors749351370809 = function(product) {
+    // Building our mapping object.
+    for (var i = 0; i < product.variants.length; i++) {
+      var variant = product.variants[i];
+      //if (variant.available) {
+      // Gathering values for the 1st drop-down.
+      Shopify.quickshopOptionsMap749351370809['root'] = Shopify.quickshopOptionsMap749351370809['root'] || [];
+      Shopify.quickshopOptionsMap749351370809['root'].push(variant.option1);
+      Shopify.quickshopOptionsMap749351370809['root'] = Shopify.uniq(Shopify.quickshopOptionsMap749351370809['root']);
+      // Gathering values for the 2nd drop-down.
+      if (product.options.length > 1) {
+        var key = variant.option1;
+        Shopify.quickshopOptionsMap749351370809[key] = Shopify.quickshopOptionsMap749351370809[key] || [];
+        Shopify.quickshopOptionsMap749351370809[key].push(variant.option2);
+        Shopify.quickshopOptionsMap749351370809[key] = Shopify.uniq(Shopify.quickshopOptionsMap749351370809[key]);
+      }
+      // Gathering values for the 3rd drop-down.
+      if (product.options.length === 3) {
+        var key = variant.option1 + ' / ' + variant.option2;
+        Shopify.quickshopOptionsMap749351370809[key] = Shopify.quickshopOptionsMap749351370809[key] || [];
+        Shopify.quickshopOptionsMap749351370809[key].push(variant.option3);
+        Shopify.quickshopOptionsMap749351370809[key] = Shopify.uniq(Shopify.quickshopOptionsMap749351370809[key]);
+      }
+      //}
+    }
+    // Update options right away.
+    Shopify.quickshopUpdateOptionsInSelector749351370809(0);
+    if (product.options.length > 1) Shopify.quickshopUpdateOptionsInSelector749351370809(1);
+    if (product.options.length === 3) Shopify.quickshopUpdateOptionsInSelector749351370809(2);
+    // When there is an update in the first dropdown.
+    jQuery("#product-form-quick-749351370809 .single-option-selector:eq(0)").change(function() {
+      Shopify.quickshopUpdateOptionsInSelector749351370809(1);
+      if (product.options.length === 3) Shopify.quickshopUpdateOptionsInSelector749351370809(2);
+      return true;
+    });
+    // When there is an update in the second dropdown.
+    jQuery("#product-form-quick-749351370809 .single-option-selector:eq(1)").change(function() {
+      if (product.options.length === 3) Shopify.quickshopUpdateOptionsInSelector749351370809(2);
+      return true;
+    });
+
+  };
+  productsObj.id749351370809 = {"id":749351370809,"title":"Best clock parallels","handle":"best-clock-parallels-1","description":"[shortdesc]Cubilia vestibulum interdum nisl a parturient a auctor vestibulum taciti vel bibendum tempor adipiscing suspendisse posuere libero penatibus lorem at interdum tristique iaculis redosan condimentum a ac rutrum mollis consectetur.[\/shortdesc] [additional]\n\u003ctable class=\"shop_attributes\"\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003cth\u003eBrand\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eJoseph Joseph\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eColor\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eBlack, Green, Yellow\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eMeasures\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eØ 35 cm\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eOrigin\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eSpain\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003c\/tbody\u003e\n\u003c\/table\u003e\n[\/additional]\n\u003cp\u003eCubilia vestibulum interdum nisl a parturient a auctor vestibulum taciti vel bibendum tempor adipiscing suspendisse posuere libero penatibus lorem at interdum tristique iaculis redosan condimentum a ac rutrum mollis consectetur. Aenean nascetur vehicula egestas a adipiscing a est egestas suspendisse parturient diam adipiscing mattis elementum velit pulvinar suscipit sagittis facilisis facilisi tortor morbi at aliquam.\u003c\/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eNetus nisi volutpat donec condimentum nunc eu sem odio condimentum hendrerit nisl mollis scelerisque ad vitae a eu.\u003c\/p\u003e\n\u003c\/blockquote\u003e\n\u003cp\u003eEtiam dictumst congue a non class risus sed a. Diam adipiscing a condimentum in a nisl a maecenas libero pharetra tincidunt phasellus justo molestie bibendum. Vestibulum penatibus vestibulum lobortis vehicula euismod a platea taciti a eget in nec cum eget curabitur justo id enim mi velit at cum. Eu amet ut elit a sociis himenaeos eros nunc at pharetra magna suscipit.\u003c\/p\u003e","published_at":"2018-05-10T00:35:17-04:00","created_at":"2018-05-10T00:35:21-04:00","vendor":"Woodmart-Default","type":"Clocks","tags":["Accessories","Beige","Black","Brown","Clocks","Furniture","S","Shop","Women","XL"],"price":59900,"price_min":59900,"price_max":59900,"available":true,"price_varies":false,"compare_at_price":null,"compare_at_price_min":0,"compare_at_price_max":0,"compare_at_price_varies":false,"variants":[{"id":7975462010937,"title":"Black","option1":"Black","option2":null,"option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795769200697,"product_id":749351370809,"position":2,"created_at":"2018-05-10T00:35:21-04:00","updated_at":"2018-05-10T00:35:21-04:00","alt":null,"width":700,"height":800,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-clock-1-3_d852fc0e-eb50-4e2a-a079-30aa0fafa4e4.jpg?v=1525926921","variant_ids":[7975462010937]},"available":true,"name":"Best clock parallels - Black","public_title":"Black","options":["Black"],"price":59900,"weight":0,"compare_at_price":null,"inventory_management":null,"barcode":""},{"id":7975462076473,"title":"Beige","option1":"Beige","option2":null,"option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795769135161,"product_id":749351370809,"position":1,"created_at":"2018-05-10T00:35:21-04:00","updated_at":"2018-05-10T00:35:21-04:00","alt":null,"width":700,"height":800,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-clock-1-2_c7766cea-6f26-4c17-aa55-d16326fc0c8f.jpg?v=1525926921","variant_ids":[7975462076473]},"available":true,"name":"Best clock parallels - Beige","public_title":"Beige","options":["Beige"],"price":59900,"weight":0,"compare_at_price":null,"inventory_management":null,"barcode":""},{"id":7975462109241,"title":"Yellow","option1":"Yellow","option2":null,"option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":null,"available":true,"name":"Best clock parallels - Yellow","public_title":"Yellow","options":["Yellow"],"price":59900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""}],"images":["\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-clock-1-2_c7766cea-6f26-4c17-aa55-d16326fc0c8f.jpg?v=1525926921","#\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-clock-1-3_d852fc0e-eb50-4e2a-a079-30aa0fafa4e4.jpg?v=1525926921","#\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-accessories-8_f92f60b9-42a5-456d-a653-84ccac00a071.jpg?v=1525926921","#\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-accessories-8-1_780a729e-d859-4f08-85a3-6c80da86e122.jpg?v=1525926921","#\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-furniture-18_45bc8eb3-1e9b-458c-92f6-c8ff0c437e08.jpg?v=1525926921","\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-furniture-18-2_9b7bab23-bbb0-4271-b3f2-6fbc7823af09.jpg?v=1525926921"],"featured_image":"\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-clock-1-2_c7766cea-6f26-4c17-aa55-d16326fc0c8f.jpg?v=1525926921","options":["Color"],"content":"[shortdesc]Cubilia vestibulum interdum nisl a parturient a auctor vestibulum taciti vel bibendum tempor adipiscing suspendisse posuere libero penatibus lorem at interdum tristique iaculis redosan condimentum a ac rutrum mollis consectetur.[\/shortdesc] [additional]\n\u003ctable class=\"shop_attributes\"\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003cth\u003eBrand\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eJoseph Joseph\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eColor\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eBlack, Green, Yellow\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eMeasures\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eØ 35 cm\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eOrigin\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eSpain\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003c\/tbody\u003e\n\u003c\/table\u003e\n[\/additional]\n\u003cp\u003eCubilia vestibulum interdum nisl a parturient a auctor vestibulum taciti vel bibendum tempor adipiscing suspendisse posuere libero penatibus lorem at interdum tristique iaculis redosan condimentum a ac rutrum mollis consectetur. Aenean nascetur vehicula egestas a adipiscing a est egestas suspendisse parturient diam adipiscing mattis elementum velit pulvinar suscipit sagittis facilisis facilisi tortor morbi at aliquam.\u003c\/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eNetus nisi volutpat donec condimentum nunc eu sem odio condimentum hendrerit nisl mollis scelerisque ad vitae a eu.\u003c\/p\u003e\n\u003c\/blockquote\u003e\n\u003cp\u003eEtiam dictumst congue a non class risus sed a. Diam adipiscing a condimentum in a nisl a maecenas libero pharetra tincidunt phasellus justo molestie bibendum. Vestibulum penatibus vestibulum lobortis vehicula euismod a platea taciti a eget in nec cum eget curabitur justo id enim mi velit at cum. Eu amet ut elit a sociis himenaeos eros nunc at pharetra magna suscipit.\u003c\/p\u003e"};
+  selectCallback = function(variant, selector) {
+    if (variant) {
+      if (variant.available) {
+        if (variant.compare_at_price > variant.price) { 
+          $("#price").html('<del class="price_compare">' + Shopify.formatMoney(variant.compare_at_price, money_format) + "</del>" + '<div class="price">' + Shopify.formatMoney(variant.price, money_format) + "</div>")
+        } else {
+          $("#price").html('<div class="price">' + Shopify.formatMoney(variant.price, money_format) + "</div>");
+        }
+        woodmart_settings.enableCurrency && currenciesCallbackSpecial("#price span.money"),$(".single_add_to_cart_button").removeClass("disabled").removeAttr("disabled").html(window.inventory_text.add_to_cart);
+      }else{
+        $("#product-form-quick-749351370809 .single_add_to_cart_button").html(window.inventory_text.sold_out).addClass("disabled").attr("disabled", "disabled");
+      }
+      if(swatch_color_type == '1' || swatch_color_type == '2'){ 
+        var form = $('#' + selector.domIdPrefix).closest('form');
+        for (var i=0,length=variant.options.length; i<length; i++) {
+          var radioButton = form.find('.swatch[data-option-index="' + i + '"] :radio[value="' + variant.options[i] +'"]');
+          if (radioButton.size()) { 
+            radioButton.get(0).checked = true;
+          }
+        } 
+      }  
+    }  
+  };
+  convertToSlug= function(e) { 
+    return e.toLowerCase().replace(/[^a-z0-9 -]/g, "").replace(/\s+/g, "-").replace(/-+/g, "-")
+  };
+  jQuery(function($) {
+     
+    var product = {"id":749351370809,"title":"Best clock parallels","handle":"best-clock-parallels-1","description":"[shortdesc]Cubilia vestibulum interdum nisl a parturient a auctor vestibulum taciti vel bibendum tempor adipiscing suspendisse posuere libero penatibus lorem at interdum tristique iaculis redosan condimentum a ac rutrum mollis consectetur.[\/shortdesc] [additional]\n\u003ctable class=\"shop_attributes\"\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003cth\u003eBrand\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eJoseph Joseph\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eColor\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eBlack, Green, Yellow\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eMeasures\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eØ 35 cm\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eOrigin\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eSpain\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003c\/tbody\u003e\n\u003c\/table\u003e\n[\/additional]\n\u003cp\u003eCubilia vestibulum interdum nisl a parturient a auctor vestibulum taciti vel bibendum tempor adipiscing suspendisse posuere libero penatibus lorem at interdum tristique iaculis redosan condimentum a ac rutrum mollis consectetur. Aenean nascetur vehicula egestas a adipiscing a est egestas suspendisse parturient diam adipiscing mattis elementum velit pulvinar suscipit sagittis facilisis facilisi tortor morbi at aliquam.\u003c\/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eNetus nisi volutpat donec condimentum nunc eu sem odio condimentum hendrerit nisl mollis scelerisque ad vitae a eu.\u003c\/p\u003e\n\u003c\/blockquote\u003e\n\u003cp\u003eEtiam dictumst congue a non class risus sed a. Diam adipiscing a condimentum in a nisl a maecenas libero pharetra tincidunt phasellus justo molestie bibendum. Vestibulum penatibus vestibulum lobortis vehicula euismod a platea taciti a eget in nec cum eget curabitur justo id enim mi velit at cum. Eu amet ut elit a sociis himenaeos eros nunc at pharetra magna suscipit.\u003c\/p\u003e","published_at":"2018-05-10T00:35:17-04:00","created_at":"2018-05-10T00:35:21-04:00","vendor":"Woodmart-Default","type":"Clocks","tags":["Accessories","Beige","Black","Brown","Clocks","Furniture","S","Shop","Women","XL"],"price":59900,"price_min":59900,"price_max":59900,"available":true,"price_varies":false,"compare_at_price":null,"compare_at_price_min":0,"compare_at_price_max":0,"compare_at_price_varies":false,"variants":[{"id":7975462010937,"title":"Black","option1":"Black","option2":null,"option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795769200697,"product_id":749351370809,"position":2,"created_at":"2018-05-10T00:35:21-04:00","updated_at":"2018-05-10T00:35:21-04:00","alt":null,"width":700,"height":800,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-clock-1-3_d852fc0e-eb50-4e2a-a079-30aa0fafa4e4.jpg?v=1525926921","variant_ids":[7975462010937]},"available":true,"name":"Best clock parallels - Black","public_title":"Black","options":["Black"],"price":59900,"weight":0,"compare_at_price":null,"inventory_management":null,"barcode":""},{"id":7975462076473,"title":"Beige","option1":"Beige","option2":null,"option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795769135161,"product_id":749351370809,"position":1,"created_at":"2018-05-10T00:35:21-04:00","updated_at":"2018-05-10T00:35:21-04:00","alt":null,"width":700,"height":800,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-clock-1-2_c7766cea-6f26-4c17-aa55-d16326fc0c8f.jpg?v=1525926921","variant_ids":[7975462076473]},"available":true,"name":"Best clock parallels - Beige","public_title":"Beige","options":["Beige"],"price":59900,"weight":0,"compare_at_price":null,"inventory_management":null,"barcode":""},{"id":7975462109241,"title":"Yellow","option1":"Yellow","option2":null,"option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":null,"available":true,"name":"Best clock parallels - Yellow","public_title":"Yellow","options":["Yellow"],"price":59900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""}],"images":["\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-clock-1-2_c7766cea-6f26-4c17-aa55-d16326fc0c8f.jpg?v=1525926921","#\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-clock-1-3_d852fc0e-eb50-4e2a-a079-30aa0fafa4e4.jpg?v=1525926921","#\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-accessories-8_f92f60b9-42a5-456d-a653-84ccac00a071.jpg?v=1525926921","#\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-accessories-8-1_780a729e-d859-4f08-85a3-6c80da86e122.jpg?v=1525926921","#\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-furniture-18_45bc8eb3-1e9b-458c-92f6-c8ff0c437e08.jpg?v=1525926921","\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-furniture-18-2_9b7bab23-bbb0-4271-b3f2-6fbc7823af09.jpg?v=1525926921"],"featured_image":"\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/product-clock-1-2_c7766cea-6f26-4c17-aa55-d16326fc0c8f.jpg?v=1525926921","options":["Color"],"content":"[shortdesc]Cubilia vestibulum interdum nisl a parturient a auctor vestibulum taciti vel bibendum tempor adipiscing suspendisse posuere libero penatibus lorem at interdum tristique iaculis redosan condimentum a ac rutrum mollis consectetur.[\/shortdesc] [additional]\n\u003ctable class=\"shop_attributes\"\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003cth\u003eBrand\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eJoseph Joseph\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eColor\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eBlack, Green, Yellow\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eMeasures\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eØ 35 cm\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eOrigin\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eSpain\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003c\/tbody\u003e\n\u003c\/table\u003e\n[\/additional]\n\u003cp\u003eCubilia vestibulum interdum nisl a parturient a auctor vestibulum taciti vel bibendum tempor adipiscing suspendisse posuere libero penatibus lorem at interdum tristique iaculis redosan condimentum a ac rutrum mollis consectetur. Aenean nascetur vehicula egestas a adipiscing a est egestas suspendisse parturient diam adipiscing mattis elementum velit pulvinar suscipit sagittis facilisis facilisi tortor morbi at aliquam.\u003c\/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eNetus nisi volutpat donec condimentum nunc eu sem odio condimentum hendrerit nisl mollis scelerisque ad vitae a eu.\u003c\/p\u003e\n\u003c\/blockquote\u003e\n\u003cp\u003eEtiam dictumst congue a non class risus sed a. Diam adipiscing a condimentum in a nisl a maecenas libero pharetra tincidunt phasellus justo molestie bibendum. Vestibulum penatibus vestibulum lobortis vehicula euismod a platea taciti a eget in nec cum eget curabitur justo id enim mi velit at cum. Eu amet ut elit a sociis himenaeos eros nunc at pharetra magna suscipit.\u003c\/p\u003e"};
+    var layout = $('#product-form-quick-749351370809'); 
+    if (product.variants.length >= 1) { //multiple variants
+      for (var i = 0; i < product.variants.length; i++) {
+        var variant = product.variants[i];
+        var option = '<option value="' + variant.id + '">' + variant.title + '</option>'; 
+        layout.find('form.product-form > select').append(option);
+      }
+      new Shopify.OptionSelectors("product-selectors-749351370809", {
+        product: product,
+        onVariantSelected: selectCallback, 
+        enableHistoryState: true
+      });  
+      var filePath = asset_url.substring(0, asset_url.lastIndexOf('../index.html'));
+      var assetUrl = asset_url.substring(0, asset_url.lastIndexOf('../index.html'));
+      var options = ""; 
+      for (var i = 0; i < product.options.length; i++) {
+        options += '<div class="swatch clearfix" data-option-index="' + i + '">';
+        options += '<div class="header">' + product.options[i] + ': </div>'; 
+        options += '<div class="swatch-content">';
+        var is_color = false;
+        var is_circle = 'circle';
+        if (/Color|Colour/i.test(product.options[i])) {
+          is_color = true;
+        }
+        if (swatch_color_type == '2') {
+          is_color = false;
+          is_circle = '';
+        } 
+        var optionValues = new Array();
+        for (var j = 0; j < product.variants.length; j++) {
+          var variant = product.variants[j];
+          var value = variant.options[i];
+          if(variant.featured_image && woodmart_settings.product_data.product_swatch_setting == '2'){ 
+            var img = variant.featured_image.src.lastIndexOf("."); 
+            var vimg = variant.featured_image.src.slice(0, img) + "_50x50_crop_center" + variant.featured_image.src.slice(img); 
+          } 
+          var valueHandle = convertToSlug(value);
+          var forText = 'swatch-749351370809-' + i + '-' + valueHandle; 
+          if (optionValues.indexOf(value) < 0) { 
+            options += '<div data-value="' + value + '" class="swatch-element '+is_circle+' '+product_swatch_size+' '+(is_color ? "color" : "")+' ' + (is_color ? "color" : "") + valueHandle + (variant.available ? ' available ' : ' soldout ') + '">';
+            if (is_color) {
+              options += '<div class="tooltip">' + value + '</div>';
+            }
+            options += '<input id="' + forText + '" type="radio" name="option-' + i + '" value="' + value + '" ' + (j == 0 ? ' checked ' : '') + (variant.available ? '' : ' disabled') + ' />';
+            if (is_color) {
+              if(vimg && woodmart_settings.product_data.product_swatch_setting == '2'){ 
+                options += '<label for="' + forText + '" class="variant-image"><img src="' + vimg + '" class="variant-image" style="max-width:100%;" /><img class="crossed-out" src="' + assetUrl + 'soldout.png" /></label>';
+              }else{
+                options += '<label for="' + forText + '" style="background-color: ' + valueHandle + '; background-image: url(' + filePath + valueHandle + '.png)"><img class="crossed-out" src="' + assetUrl + 'soldout.png" /></label>';
+              }
+            } else {
+              options += '<label for="' + forText + '">' + value + '<img class="crossed-out" src="' + assetUrl + 'soldout.png" /></label>';
+            }
+            options += '</div>';
+            if (variant.available) {
+              $('#product-form-quick-749351370809 .swatch[data-option-index="' + i + '"] .' + valueHandle).removeClass('soldout').addClass('available').find(':radio').removeAttr('disabled');
+            }
+            optionValues.push(value);
+          }
+        } 
+        options += '</div>';
+        options += '</div>';
+      }  
+      if(swatch_color_type == '1' || swatch_color_type == '2'){ 
+        layout.find('form.product-form .product-options > select').after(options);
+        layout.find('.swatch :radio').change(function() {
+          var optionIndex = $(this).closest('.swatch').attr('data-option-index');
+          var optionValue = $(this).val(); 
+          $(this)
+          .closest('form')
+          .find('.single-option-selector')
+          .eq(optionIndex)
+          .val(optionValue)
+          .trigger('change');
+        }); 
+      } 
+      if (product.available) {
+        Shopify.quickshopOptionsMap749351370809 = {};
+        Shopify.quickshopLinkOptionSelectors749351370809(product);
+      }
+    } else { //single variant
+      layout.find('form.product-form .product-options > select').remove();
+      var variant_field = '<input type="hidden" name="id" value="' + product.variants[0].id + '">';
+      layout.find('form.product-form').append(variant_field);
+    }
+     
+  });
+</script> 
+

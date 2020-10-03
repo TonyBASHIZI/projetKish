@@ -1,0 +1,1093 @@
+[15-Nov-2019 07:27:18 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[15-Nov-2019 07:27:18 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[15-Nov-2019 07:27:18 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[15-Nov-2019 07:30:29 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[15-Nov-2019 07:30:29 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[15-Nov-2019 07:30:29 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[16-Nov-2019 20:53:56 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php:17
+Stack trace:
+#0 /home/c1144147c/public_html/index.php(76): require()
+#1 {main}
+  thrown in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 17
+[16-Nov-2019 20:55:21 Europe/Paris] PHP Notice:  Undefined variable: db in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 11
+[16-Nov-2019 20:55:21 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php:11
+Stack trace:
+#0 /home/c1144147c/public_html/index.php(76): require()
+#1 {main}
+  thrown in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 11
+[21-Nov-2019 08:48:48 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[21-Nov-2019 08:48:48 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[21-Nov-2019 08:48:48 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[22-Nov-2019 16:37:38 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 62
+[22-Nov-2019 16:38:53 Europe/Paris] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 62
+[22-Nov-2019 16:39:11 Europe/Paris] PHP Notice:  Undefined index: id in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 62
+[22-Nov-2019 16:39:42 Europe/Paris] PHP Notice:  Undefined index: CODECMD in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 62
+[22-Nov-2019 16:41:33 Europe/Paris] PHP Notice:  Undefined property: stdClass::$CODECMD in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 62
+[22-Nov-2019 16:42:54 Europe/Paris] PHP Warning:  Creating default object from empty value in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 19
+[22-Nov-2019 16:42:54 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php:20
+Stack trace:
+#0 /home/c1144147c/public_html/index.php(76): require()
+#1 {main}
+  thrown in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 20
+[22-Nov-2019 16:56:48 Europe/Paris] PHP Notice:  Trying to get property of non-object in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 11
+[22-Nov-2019 16:56:48 Europe/Paris] PHP Warning:  implode(): Argument must be an array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 11
+[22-Nov-2019 16:57:42 Europe/Paris] PHP Warning:  implode(): Argument must be an array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 11
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:16:22 Europe/Paris] PHP Notice:  Undefined index: REFCL in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 72
+[22-Nov-2019 17:35:59 Europe/Paris] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 110
+[22-Nov-2019 17:43:02 Europe/Paris] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 109
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Array to string conversion in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 17:58:46 Europe/Paris] PHP Notice:  Undefined variable: Array in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 65
+[22-Nov-2019 19:08:47 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[22-Nov-2019 19:08:47 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[22-Nov-2019 19:08:47 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[22-Nov-2019 21:41:25 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 52
+[22-Nov-2019 21:42:13 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 52
+[22-Nov-2019 23:19:46 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[22-Nov-2019 23:19:46 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[22-Nov-2019 23:19:46 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[22-Nov-2019 23:40:31 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[22-Nov-2019 23:40:31 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[22-Nov-2019 23:40:31 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[22-Nov-2019 23:40:31 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect decimal value: '-' for column `c1144147c_yakuuwa_db`.`t_approvision`.`prix_ui` at row 1 in /home/c1144147c/core/Database/MysqlDatabase.php:74
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(74): PDOStatement->execute(Array)
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare('INSERT INTO  t_...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(70): Core\Table\Table->query('INSERT INTO  t_...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php(42): Core\Table\Table->save(Array)
+#4 /home/c1144147c/public_html/index.php(38): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 74
+[22-Nov-2019 23:40:38 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[22-Nov-2019 23:40:38 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[22-Nov-2019 23:40:38 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[22-Nov-2019 23:40:38 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect decimal value: '-' for column `c1144147c_yakuuwa_db`.`t_approvision`.`prix_ui` at row 1 in /home/c1144147c/core/Database/MysqlDatabase.php:74
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(74): PDOStatement->execute(Array)
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare('INSERT INTO  t_...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(70): Core\Table\Table->query('INSERT INTO  t_...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php(42): Core\Table\Table->save(Array)
+#4 /home/c1144147c/public_html/index.php(38): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 74
+[22-Nov-2019 23:42:19 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[22-Nov-2019 23:42:19 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[22-Nov-2019 23:42:19 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[22-Nov-2019 23:44:16 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[22-Nov-2019 23:44:16 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[22-Nov-2019 23:44:16 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[22-Nov-2019 23:45:00 Europe/Paris] PHP Notice:  Undefined variable: p in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[22-Nov-2019 23:45:00 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[22-Nov-2019 23:46:13 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[22-Nov-2019 23:46:13 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[22-Nov-2019 23:46:13 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[22-Nov-2019 23:57:16 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[22-Nov-2019 23:57:16 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[22-Nov-2019 23:57:16 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[22-Nov-2019 23:59:01 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[22-Nov-2019 23:59:01 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[22-Nov-2019 23:59:01 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[23-Nov-2019 00:00:47 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[23-Nov-2019 00:00:47 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[23-Nov-2019 00:00:47 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[23-Nov-2019 00:02:52 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[23-Nov-2019 00:02:52 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[23-Nov-2019 00:02:52 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[23-Nov-2019 10:38:43 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[23-Nov-2019 10:38:43 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[23-Nov-2019 10:38:43 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[23-Nov-2019 16:25:48 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[23-Nov-2019 16:25:48 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[23-Nov-2019 16:25:48 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[23-Nov-2019 16:29:23 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 52
+[23-Nov-2019 16:30:42 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 52
+[23-Nov-2019 16:34:02 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 52
+[23-Nov-2019 16:38:04 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 52
+[23-Nov-2019 16:38:32 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 52
+[23-Nov-2019 16:41:25 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 52
+[23-Nov-2019 16:52:06 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 52
+[23-Nov-2019 16:52:46 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 52
+[23-Nov-2019 17:31:57 Europe/Paris] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 111
+[23-Nov-2019 17:32:21 Europe/Paris] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 111
+[23-Nov-2019 17:33:47 Europe/Paris] PHP Notice:  Object of class mysqli_result could not be converted to int in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 111
+[02-Dec-2019 08:13:19 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 08:13:19 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 08:13:19 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 08:13:35 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(87): Core\Table\Table->delete('1', true)
+#4 /home/c1144147c/public_html/index.php(44): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[02-Dec-2019 08:15:35 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 08:15:35 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 08:15:35 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 08:17:36 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 08:17:36 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 08:17:36 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 08:19:24 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 08:19:24 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 08:19:24 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 08:23:27 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 08:23:27 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 08:23:27 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 08:36:20 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 08:36:20 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 08:36:20 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 08:37:51 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 08:37:51 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 08:37:51 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 08:39:16 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 08:39:16 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 08:39:16 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 08:41:45 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 08:41:45 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 08:41:45 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 08:41:56 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(87): Core\Table\Table->delete('3', true)
+#4 /home/c1144147c/public_html/index.php(44): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[02-Dec-2019 08:49:56 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 08:49:56 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 08:49:56 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 08:52:51 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 08:52:51 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 08:52:51 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 09:12:22 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 09:12:22 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 09:12:22 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 12:53:35 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 12:53:35 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 12:53:35 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 12:55:32 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 12:55:32 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 12:55:33 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 13:19:07 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 13:19:07 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 13:19:07 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 13:24:59 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 13:24:59 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 13:24:59 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 13:27:54 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 13:27:54 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 13:27:54 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 13:30:15 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 13:30:16 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 13:30:16 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 13:33:23 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 13:33:23 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 13:33:23 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 13:37:08 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 13:37:08 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 13:37:08 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 13:41:09 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 13:41:09 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 13:41:09 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 13:41:23 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 13:41:23 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 13:41:23 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 13:42:07 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(87): Core\Table\Table->delete('65', true)
+#4 /home/c1144147c/public_html/index.php(44): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[02-Dec-2019 13:48:14 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 13:48:14 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 13:48:14 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 13:52:53 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 13:52:53 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 13:52:53 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 13:53:34 Europe/Paris] PHP Notice:  Undefined index: choix in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/produits.php on line 18
+[02-Dec-2019 13:53:34 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'cat_produit' cannot be null in /home/c1144147c/core/Database/MysqlDatabase.php:74
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(74): PDOStatement->execute(Array)
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare('INSERT INTO t_p...', Array, 'App\\Entity\\Prod...', true)
+#2 /home/c1144147c/core/Table/Table.php(70): Core\Table\Table->query('INSERT INTO t_p...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/produits.php(18): Core\Table\Table->save(Array)
+#4 /home/c1144147c/public_html/index.php(35): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 74
+[02-Dec-2019 13:53:41 Europe/Paris] PHP Notice:  Undefined index: choix in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/produits.php on line 18
+[02-Dec-2019 13:53:41 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'cat_produit' cannot be null in /home/c1144147c/core/Database/MysqlDatabase.php:74
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(74): PDOStatement->execute(Array)
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare('INSERT INTO t_p...', Array, 'App\\Entity\\Prod...', true)
+#2 /home/c1144147c/core/Table/Table.php(70): Core\Table\Table->query('INSERT INTO t_p...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/produits.php(18): Core\Table\Table->save(Array)
+#4 /home/c1144147c/public_html/index.php(35): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 74
+[02-Dec-2019 13:56:17 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 13:56:17 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 13:56:17 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 14:13:19 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 14:13:19 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 14:13:19 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 14:15:15 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 14:15:15 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 14:15:15 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 14:17:17 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 14:17:18 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 14:17:18 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 14:20:19 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[02-Dec-2019 14:20:19 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[02-Dec-2019 14:20:19 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[02-Dec-2019 14:21:07 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 24
+[02-Dec-2019 14:21:07 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 38
+[02-Dec-2019 14:21:07 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 52
+[03-Dec-2019 10:43:48 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[03-Dec-2019 10:43:49 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[03-Dec-2019 10:43:49 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[03-Dec-2019 10:48:56 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(87): Core\Table\Table->delete('13', true)
+#4 /home/c1144147c/public_html/index.php(44): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[04-Dec-2019 12:00:45 Europe/Paris] PHP Notice:  Undefined index: id in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 3
+[04-Dec-2019 12:00:45 Europe/Paris] PHP Notice:  Undefined index: code in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 4
+[04-Dec-2019 12:00:45 Europe/Paris] PHP Notice:  Undefined index: det in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 5
+[04-Dec-2019 12:00:45 Europe/Paris] PHP Notice:  Undefined index: cate in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 6
+[04-Dec-2019 12:00:45 Europe/Paris] PHP Notice:  Undefined index: px in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 7
+[04-Dec-2019 12:00:45 Europe/Paris] PHP Notice:  Undefined index: qte in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 8
+[04-Dec-2019 12:00:45 Europe/Paris] PHP Notice:  Undefined index: fss in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 9
+[04-Dec-2019 12:00:45 Europe/Paris] PHP Notice:  Undefined index: img1 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 10
+[04-Dec-2019 12:00:45 Europe/Paris] PHP Notice:  Undefined index: img2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 11
+[04-Dec-2019 12:00:45 Europe/Paris] PHP Notice:  Undefined index: img3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 12
+[04-Dec-2019 12:28:21 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(87): Core\Table\Table->delete('63', true)
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[12-Dec-2019 22:06:10 Europe/Paris] PHP Notice:  Undefined variable: p in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[12-Dec-2019 22:06:10 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[12-Dec-2019 22:13:49 Europe/Paris] PHP Warning:  require(/home/c1144147c/public_html/ressouces/views/layouts/defaultLogin.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/index.php on line 211
+[12-Dec-2019 22:13:49 Europe/Paris] PHP Warning:  require(/home/c1144147c/public_html/ressouces/views/layouts/defaultLogin.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/index.php on line 211
+[12-Dec-2019 22:13:49 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/c1144147c/public_html/ressouces/views/layouts/defaultLogin.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/public_html/index.php on line 211
+[12-Dec-2019 22:48:25 Europe/Paris] PHP Parse error:  syntax error, unexpected '>' in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/commande.php on line 109
+[12-Dec-2019 23:19:15 Europe/Paris] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/paie.php on line 55
+[12-Dec-2019 23:22:16 Europe/Paris] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/paie.php on line 55
+[12-Dec-2019 23:47:15 Europe/Paris] PHP Notice:  Undefined index: submit in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/paie.php on line 8
+[12-Dec-2019 23:49:33 Europe/Paris] PHP Notice:  Undefined index: submit in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/paie.php on line 8
+[16-Dec-2019 15:01:03 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method App\Table\ProvisionTable::orderBy() in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/livraison.php:2
+Stack trace:
+#0 /home/c1144147c/public_html/index.php(79): require()
+#1 {main}
+  thrown in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/livraison.php on line 2
+[16-Dec-2019 15:04:01 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/livraison.php:3
+Stack trace:
+#0 /home/c1144147c/public_html/index.php(79): require()
+#1 {main}
+  thrown in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/livraison.php on line 3
+[16-Dec-2019 15:17:30 Europe/Paris] PHP Warning:  The use statement with non-compound name 'DB' has no effect in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/livraison.php on line 2
+[16-Dec-2019 15:17:30 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/livraison.php:4
+Stack trace:
+#0 /home/c1144147c/public_html/index.php(79): require()
+#1 {main}
+  thrown in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/livraison.php on line 4
+[16-Dec-2019 15:21:04 Europe/Paris] PHP Warning:  The use statement with non-compound name 'DB' has no effect in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/livraison.php on line 2
+[16-Dec-2019 15:21:04 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/livraison.php:4
+Stack trace:
+#0 /home/c1144147c/public_html/index.php(79): require()
+#1 {main}
+  thrown in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/livraison.php on line 4
+[16-Dec-2019 15:21:15 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/livraison.php:4
+Stack trace:
+#0 /home/c1144147c/public_html/index.php(79): require()
+#1 {main}
+  thrown in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/livraison.php on line 4
+[16-Dec-2019 15:21:49 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/livraison.php:4
+Stack trace:
+#0 /home/c1144147c/public_html/index.php(79): require()
+#1 {main}
+  thrown in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/livraison.php on line 4
+[16-Dec-2019 15:21:56 Europe/Paris] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/livraison.php:4
+Stack trace:
+#0 /home/c1144147c/public_html/index.php(79): require()
+#1 {main}
+  thrown in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/livraison.php on line 4
+[16-Dec-2019 15:24:25 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 24
+[16-Dec-2019 15:24:25 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 38
+[16-Dec-2019 15:24:25 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 52
+[16-Dec-2019 15:24:59 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(87): Core\Table\Table->delete('66', true)
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[16-Dec-2019 15:47:51 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 38
+[16-Dec-2019 15:47:51 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 52
+[16-Dec-2019 15:51:06 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 52
+[16-Dec-2019 16:03:30 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(87): Core\Table\Table->delete('74')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[16-Dec-2019 16:19:26 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(87): Core\Table\Table->delete('74')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[16-Dec-2019 16:20:02 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(87): Core\Table\Table->delete('11')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[16-Dec-2019 16:22:35 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(87): Core\Table\Table->delete('72')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[17-Dec-2019 23:49:32 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[17-Dec-2019 23:49:32 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[17-Dec-2019 23:49:32 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[17-Dec-2019 23:51:59 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[17-Dec-2019 23:51:59 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[17-Dec-2019 23:51:59 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[17-Dec-2019 23:51:59 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'detail' at row 1 in /home/c1144147c/core/Database/MysqlDatabase.php:74
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(74): PDOStatement->execute(Array)
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare('INSERT INTO  t_...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(70): Core\Table\Table->query('INSERT INTO  t_...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php(42): Core\Table\Table->save(Array)
+#4 /home/c1144147c/public_html/index.php(63): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 74
+[17-Dec-2019 23:52:58 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[17-Dec-2019 23:52:58 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[17-Dec-2019 23:52:58 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[17-Dec-2019 23:55:14 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[17-Dec-2019 23:55:14 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[17-Dec-2019 23:55:14 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[18-Dec-2019 00:20:53 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[18-Dec-2019 00:20:53 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[18-Dec-2019 00:20:53 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[18-Dec-2019 00:23:25 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 38
+[18-Dec-2019 00:23:25 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 52
+[18-Dec-2019 00:26:19 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[18-Dec-2019 00:26:19 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[18-Dec-2019 00:26:19 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[18-Dec-2019 00:34:13 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[18-Dec-2019 00:34:13 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[18-Dec-2019 00:34:13 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[18-Dec-2019 00:36:45 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[18-Dec-2019 00:36:45 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[18-Dec-2019 00:36:45 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[18-Dec-2019 00:41:23 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[18-Dec-2019 00:41:23 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[18-Dec-2019 00:41:23 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[18-Dec-2019 00:49:26 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[18-Dec-2019 00:49:26 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[18-Dec-2019 00:49:26 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[18-Dec-2019 00:51:14 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(87): Core\Table\Table->delete('83')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[18-Dec-2019 00:52:24 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[18-Dec-2019 00:52:24 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[18-Dec-2019 00:52:24 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[14-Jan-2020 14:53:55 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('16')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[14-Jan-2020 14:55:35 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('17')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[29-Mar-2020 09:18:18 Europe/Paris] PHP Warning:  require(/home/c1144147c/ressouces/views/admin/pages/Login/login.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/admin.php on line 46
+[29-Mar-2020 09:18:18 Europe/Paris] PHP Warning:  require(/home/c1144147c/ressouces/views/admin/pages/Login/login.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/admin.php on line 46
+[29-Mar-2020 09:18:18 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/c1144147c/ressouces/views/admin/pages/Login/login.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/public_html/admin.php on line 46
+[14-Apr-2020 03:39:37 Europe/Paris] PHP Warning:  require(/home/c1144147c/ressouces/views/admin/pages/Login/login.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/admin.php on line 46
+[14-Apr-2020 03:39:37 Europe/Paris] PHP Warning:  require(/home/c1144147c/ressouces/views/admin/pages/Login/login.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/admin.php on line 46
+[14-Apr-2020 03:39:37 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/c1144147c/ressouces/views/admin/pages/Login/login.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/public_html/admin.php on line 46
+[14-Apr-2020 03:48:33 Europe/Paris] PHP Warning:  require(/home/c1144147c/ressouces/views/admin/pages/Login/login.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/admin.php on line 46
+[14-Apr-2020 03:48:33 Europe/Paris] PHP Warning:  require(/home/c1144147c/ressouces/views/admin/pages/Login/login.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/admin.php on line 46
+[14-Apr-2020 03:48:33 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/c1144147c/ressouces/views/admin/pages/Login/login.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/public_html/admin.php on line 46
+[14-Apr-2020 03:59:00 Europe/Paris] PHP Warning:  require(/home/c1144147c/ressouces/views/admin/pages/Login/login.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/admin.php on line 46
+[14-Apr-2020 03:59:00 Europe/Paris] PHP Warning:  require(/home/c1144147c/ressouces/views/admin/pages/Login/login.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/admin.php on line 46
+[14-Apr-2020 03:59:00 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/c1144147c/ressouces/views/admin/pages/Login/login.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/public_html/admin.php on line 46
+[14-Apr-2020 04:10:11 Europe/Paris] PHP Warning:  require(/home/c1144147c/ressouces/views/admin/pages/Login/login.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/admin.php on line 46
+[14-Apr-2020 04:10:11 Europe/Paris] PHP Warning:  require(/home/c1144147c/ressouces/views/admin/pages/Login/login.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/admin.php on line 46
+[14-Apr-2020 04:10:11 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/c1144147c/ressouces/views/admin/pages/Login/login.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/public_html/admin.php on line 46
+[14-May-2020 22:07:37 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[14-May-2020 22:07:37 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[14-May-2020 22:07:37 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[14-May-2020 22:11:32 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[14-May-2020 22:11:32 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[14-May-2020 22:11:32 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[14-May-2020 22:23:00 Europe/Paris] PHP Notice:  Undefined index: cate in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 5
+[14-May-2020 22:23:46 Europe/Paris] PHP Notice:  Undefined index: cate in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 5
+[14-May-2020 22:25:31 Europe/Paris] PHP Notice:  Undefined index: cate in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 5
+[14-May-2020 22:25:45 Europe/Paris] PHP Notice:  Undefined index: cate in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 5
+[14-May-2020 22:29:40 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[14-May-2020 22:29:40 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[14-May-2020 22:29:40 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[14-May-2020 22:33:32 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[14-May-2020 22:33:32 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[14-May-2020 22:33:32 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[14-May-2020 22:35:50 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[14-May-2020 22:35:50 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[14-May-2020 22:35:50 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[14-May-2020 22:39:52 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[14-May-2020 22:39:52 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[14-May-2020 22:39:52 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[14-May-2020 22:42:45 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[14-May-2020 22:42:45 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[14-May-2020 22:42:45 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[14-May-2020 22:53:20 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[14-May-2020 22:53:20 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[14-May-2020 22:53:20 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[14-May-2020 22:55:18 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[14-May-2020 22:55:18 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[14-May-2020 22:55:18 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[15-May-2020 11:06:05 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[15-May-2020 11:06:06 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[15-May-2020 11:06:06 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[15-May-2020 11:25:18 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[15-May-2020 11:25:18 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[15-May-2020 11:25:18 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[15-May-2020 11:48:26 Europe/Paris] PHP Notice:  Undefined variable: p in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[15-May-2020 11:48:26 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[15-May-2020 11:48:55 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 13
+[15-May-2020 11:48:55 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategorieTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[15-May-2020 11:48:55 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategorieTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[15-May-2020 11:48:55 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/c1144147c/app/Table/CategorieTable.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/app/Autoload.php on line 19
+[15-May-2020 11:49:01 Europe/Paris] PHP Notice:  Undefined variable: p in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[15-May-2020 11:49:01 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[15-May-2020 11:49:52 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 13
+[15-May-2020 11:49:52 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategorieTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[15-May-2020 11:49:52 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategorieTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[15-May-2020 11:49:52 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/c1144147c/app/Table/CategorieTable.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/app/Autoload.php on line 19
+[15-May-2020 11:51:46 Europe/Paris] PHP Notice:  Undefined variable: p in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[15-May-2020 11:51:46 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[15-May-2020 11:51:49 Europe/Paris] PHP Notice:  Undefined variable: p in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[15-May-2020 11:51:49 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[15-May-2020 11:52:04 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategorieTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[15-May-2020 11:52:04 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategorieTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[15-May-2020 11:52:04 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/c1144147c/app/Table/CategorieTable.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/app/Autoload.php on line 19
+[15-May-2020 12:11:49 Europe/Paris] PHP Notice:  Undefined variable: p in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[15-May-2020 12:11:49 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[16-May-2020 14:32:34 Europe/Paris] PHP Warning:  require(/home/c1144147c/ressouces/views/admin/pages/Login/login.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/admin.php on line 46
+[16-May-2020 14:32:34 Europe/Paris] PHP Warning:  require(/home/c1144147c/ressouces/views/admin/pages/Login/login.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/admin.php on line 46
+[16-May-2020 14:32:34 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/c1144147c/ressouces/views/admin/pages/Login/login.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/public_html/admin.php on line 46
+[10-Jun-2020 21:15:16 Europe/Paris] PHP Notice:  Undefined variable: p in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[10-Jun-2020 21:15:16 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[10-Jun-2020 21:33:17 Europe/Paris] PHP Notice:  Undefined variable: p in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[10-Jun-2020 21:33:17 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[10-Jun-2020 21:35:18 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategoryTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[10-Jun-2020 21:35:18 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategoryTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[10-Jun-2020 21:35:18 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/c1144147c/app/Table/CategoryTable.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/app/Autoload.php on line 19
+[10-Jun-2020 21:35:31 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategoryTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[10-Jun-2020 21:35:31 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategoryTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[10-Jun-2020 21:35:31 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/c1144147c/app/Table/CategoryTable.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/app/Autoload.php on line 19
+[10-Jun-2020 21:35:44 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategoryTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[10-Jun-2020 21:35:44 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategoryTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[10-Jun-2020 21:35:44 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/c1144147c/app/Table/CategoryTable.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/app/Autoload.php on line 19
+[10-Jun-2020 21:35:46 Europe/Paris] PHP Notice:  Undefined variable: p in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[10-Jun-2020 21:35:46 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[10-Jun-2020 21:36:15 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategoryTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[10-Jun-2020 21:36:15 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategoryTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[10-Jun-2020 21:36:15 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/c1144147c/app/Table/CategoryTable.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/app/Autoload.php on line 19
+[04-Jul-2020 12:39:58 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method App\App::getInstace() in /home/c1144147c/public_html/ressouces/views/admin/pages/Publication/publication.php:3
+Stack trace:
+#0 /home/c1144147c/public_html/index.php(109): require()
+#1 {main}
+  thrown in /home/c1144147c/public_html/ressouces/views/admin/pages/Publication/publication.php on line 3
+[04-Jul-2020 12:40:20 Europe/Paris] PHP Notice:  Undefined index: code in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 4
+[04-Jul-2020 12:40:20 Europe/Paris] PHP Notice:  Undefined index: cate in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 6
+[04-Jul-2020 12:40:20 Europe/Paris] PHP Notice:  Undefined index: lastprice in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 7
+[04-Jul-2020 12:44:59 Europe/Paris] PHP Notice:  Undefined variable: p in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[04-Jul-2020 12:44:59 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[04-Jul-2020 12:45:36 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategoryTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[04-Jul-2020 12:45:36 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategoryTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[04-Jul-2020 12:45:36 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/c1144147c/app/Table/CategoryTable.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/app/Autoload.php on line 19
+[04-Jul-2020 12:45:43 Europe/Paris] PHP Notice:  Undefined variable: p in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[04-Jul-2020 12:45:43 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[04-Jul-2020 12:45:58 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategoryTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[04-Jul-2020 12:45:58 Europe/Paris] PHP Warning:  require(/home/c1144147c/app/Table/CategoryTable.php): failed to open stream: No such file or directory in /home/c1144147c/app/Autoload.php on line 19
+[04-Jul-2020 12:45:58 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/c1144147c/app/Table/CategoryTable.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/app/Autoload.php on line 19
+[04-Jul-2020 12:46:00 Europe/Paris] PHP Notice:  Undefined variable: p in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[04-Jul-2020 12:46:00 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[04-Jul-2020 12:51:50 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[04-Jul-2020 12:51:50 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[04-Jul-2020 12:51:50 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[04-Jul-2020 12:51:50 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'prix_ui' at row 1 in /home/c1144147c/core/Database/MysqlDatabase.php:74
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(74): PDOStatement->execute(Array)
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare('INSERT INTO  t_...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(70): Core\Table\Table->query('INSERT INTO  t_...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php(43): Core\Table\Table->save(Array)
+#4 /home/c1144147c/public_html/index.php(63): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 74
+[04-Jul-2020 22:38:47 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[04-Jul-2020 22:38:48 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[04-Jul-2020 22:38:48 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[04-Jul-2020 22:38:48 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'prix_ui' at row 1 in /home/c1144147c/core/Database/MysqlDatabase.php:74
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(74): PDOStatement->execute(Array)
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare('INSERT INTO  t_...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(70): Core\Table\Table->query('INSERT INTO  t_...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php(43): Core\Table\Table->save(Array)
+#4 /home/c1144147c/public_html/index.php(63): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 74
+[08-Jul-2020 21:48:21 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[08-Jul-2020 21:48:21 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[08-Jul-2020 21:48:21 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[08-Jul-2020 22:30:48 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[08-Jul-2020 22:30:48 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[08-Jul-2020 22:30:48 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[08-Jul-2020 22:30:48 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'prix_ui' at row 1 in /home/c1144147c/core/Database/MysqlDatabase.php:74
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(74): PDOStatement->execute(Array)
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare('INSERT INTO  t_...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(70): Core\Table\Table->query('INSERT INTO  t_...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php(43): Core\Table\Table->save(Array)
+#4 /home/c1144147c/public_html/index.php(63): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 74
+[08-Jul-2020 22:34:11 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[08-Jul-2020 22:34:11 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[08-Jul-2020 22:34:11 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[08-Jul-2020 22:34:12 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'prix_ui' at row 1 in /home/c1144147c/core/Database/MysqlDatabase.php:74
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(74): PDOStatement->execute(Array)
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare('INSERT INTO  t_...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(70): Core\Table\Table->query('INSERT INTO  t_...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php(43): Core\Table\Table->save(Array)
+#4 /home/c1144147c/public_html/index.php(63): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 74
+[08-Jul-2020 22:39:00 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[08-Jul-2020 22:39:00 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[08-Jul-2020 22:39:00 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[08-Jul-2020 22:47:29 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[08-Jul-2020 22:47:29 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[08-Jul-2020 22:47:29 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[08-Jul-2020 23:02:41 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('12')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[08-Jul-2020 23:03:58 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('11')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[08-Jul-2020 23:07:55 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('6')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[08-Jul-2020 23:07:59 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('6')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[08-Jul-2020 23:08:18 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('2')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[08-Jul-2020 23:08:47 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('3')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[08-Jul-2020 23:09:43 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('4')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[08-Jul-2020 23:09:59 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('5')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[08-Jul-2020 23:10:18 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('7')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[08-Jul-2020 23:10:26 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('7')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[08-Jul-2020 23:10:44 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('8')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[08-Jul-2020 23:11:02 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('9')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[08-Jul-2020 23:11:21 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('10')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[08-Jul-2020 23:14:34 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[08-Jul-2020 23:14:34 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[08-Jul-2020 23:14:35 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[08-Jul-2020 23:19:41 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[08-Jul-2020 23:19:41 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[08-Jul-2020 23:19:41 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[08-Jul-2020 23:24:06 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[08-Jul-2020 23:24:06 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[08-Jul-2020 23:24:06 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[08-Jul-2020 23:26:22 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[08-Jul-2020 23:26:22 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[08-Jul-2020 23:26:22 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[08-Jul-2020 23:39:59 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[08-Jul-2020 23:39:59 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[08-Jul-2020 23:39:59 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[08-Jul-2020 23:49:39 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[08-Jul-2020 23:49:39 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[08-Jul-2020 23:49:39 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[08-Jul-2020 23:51:57 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[08-Jul-2020 23:51:57 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[08-Jul-2020 23:51:57 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[08-Jul-2020 23:55:07 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[08-Jul-2020 23:55:07 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[08-Jul-2020 23:55:07 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[08-Jul-2020 23:58:09 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[08-Jul-2020 23:58:09 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[08-Jul-2020 23:58:09 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[09-Jul-2020 00:00:56 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[09-Jul-2020 00:00:56 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[09-Jul-2020 00:00:56 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[09-Jul-2020 02:07:35 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[09-Jul-2020 02:07:35 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[09-Jul-2020 02:07:35 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[09-Jul-2020 10:21:42 Europe/Paris] PHP Notice:  Undefined variable: p in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[09-Jul-2020 10:21:42 Europe/Paris] PHP Warning:  Invalid argument supplied for foreach() in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/categorie.php on line 83
+[09-Jul-2020 10:51:17 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[09-Jul-2020 10:51:17 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[09-Jul-2020 10:51:17 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[09-Jul-2020 10:56:35 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[09-Jul-2020 10:56:35 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[09-Jul-2020 10:56:35 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[09-Jul-2020 11:02:35 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[09-Jul-2020 11:02:35 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[09-Jul-2020 11:02:35 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[09-Jul-2020 11:10:28 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('27')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[09-Jul-2020 11:15:02 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[09-Jul-2020 11:15:02 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[09-Jul-2020 11:15:02 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[09-Jul-2020 11:20:04 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[09-Jul-2020 11:20:04 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[09-Jul-2020 11:20:04 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[09-Jul-2020 11:25:27 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[09-Jul-2020 11:25:27 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[09-Jul-2020 11:25:27 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[09-Jul-2020 11:30:56 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[09-Jul-2020 11:30:56 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[09-Jul-2020 11:30:56 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[09-Jul-2020 11:39:19 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[09-Jul-2020 11:39:19 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[09-Jul-2020 11:39:19 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[09-Jul-2020 11:42:14 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[09-Jul-2020 11:42:14 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[09-Jul-2020 11:42:14 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[09-Jul-2020 11:44:12 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[09-Jul-2020 11:44:12 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[09-Jul-2020 11:44:12 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[09-Jul-2020 11:45:48 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[09-Jul-2020 11:45:48 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[09-Jul-2020 11:45:48 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[09-Jul-2020 11:47:37 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[09-Jul-2020 11:47:37 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[09-Jul-2020 11:47:37 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[09-Jul-2020 11:49:38 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 14
+[09-Jul-2020 11:49:38 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 21
+[09-Jul-2020 11:49:38 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 29
+[09-Jul-2020 12:21:51 Europe/Paris] PHP Parse error:  syntax error, unexpected 't' (T_STRING) in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 107
+[09-Jul-2020 12:29:58 Europe/Paris] PHP Parse error:  syntax error, unexpected 't' (T_STRING) in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 110
+[09-Jul-2020 12:30:41 Europe/Paris] PHP Notice:  Undefined variable: SESSION in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 9
+[09-Jul-2020 12:31:10 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 12:31:10 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 12:31:10 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 12:35:55 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 12:35:55 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 12:35:55 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 12:37:54 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 12:37:54 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 12:37:54 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 12:40:36 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 12:40:36 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 12:40:36 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 12:44:23 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 12:44:23 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 12:44:23 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 12:45:52 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 12:45:52 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 12:45:52 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 12:52:00 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 12:52:00 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 12:52:00 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 12:53:37 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 12:53:37 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 12:53:37 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 12:55:15 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 12:55:15 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 12:55:15 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 12:57:32 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 12:57:32 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 12:57:32 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 12:59:24 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 12:59:24 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 12:59:24 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 13:06:52 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 13:06:52 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 13:06:52 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 13:09:34 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 13:09:34 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 13:09:34 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 13:11:34 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 13:11:34 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 13:11:34 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 13:14:19 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 13:14:19 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 13:14:19 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 13:15:44 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 13:15:44 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 13:15:44 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 13:17:47 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 13:17:47 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 13:17:47 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 13:24:06 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 13:24:06 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 13:24:06 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 13:31:22 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 13:31:22 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 13:31:22 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 13:33:30 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 13:33:30 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 13:33:30 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 13:34:58 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 13:34:58 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 13:34:58 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 13:36:33 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 13:36:33 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 13:36:33 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 13:38:42 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 13:38:42 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 13:38:42 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 13:40:34 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 13:40:34 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 13:40:34 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 13:41:58 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 13:41:58 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 13:41:58 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 13:57:07 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 13:57:07 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 13:57:07 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 14:02:15 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 14:02:15 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 14:02:15 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 14:05:42 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 14:05:42 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 14:05:42 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 14:09:19 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 14:09:19 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 14:09:19 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 14:11:15 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 14:11:15 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 14:11:15 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 14:15:29 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 14:15:29 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 14:15:29 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 14:17:35 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 14:17:35 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 14:17:35 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 14:19:31 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 14:19:31 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 14:19:31 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 14:22:46 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 14:22:46 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 14:22:46 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 14:25:32 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 14:25:32 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 14:25:32 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 14:29:08 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 14:29:08 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 14:29:08 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 14:53:52 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 14:53:52 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 14:53:52 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 14:57:17 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 14:57:17 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 14:57:17 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 15:05:10 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 15:05:10 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 15:05:10 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 15:16:29 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 15:16:29 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 15:16:29 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 15:20:52 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 15:20:52 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 15:20:52 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 15:24:31 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 15:24:31 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 15:24:31 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 15:26:25 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 15:26:25 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 15:26:25 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 15:31:43 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 15:31:43 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 15:31:43 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 15:38:38 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 15:38:38 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 15:38:38 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[09-Jul-2020 15:50:06 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[09-Jul-2020 15:50:06 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[09-Jul-2020 15:50:06 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[11-Jul-2020 11:53:23 Europe/Paris] PHP Notice:  Undefined index: lastprice in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 7
+[11-Jul-2020 11:53:23 Europe/Paris] PHP Notice:  Undefined index: img1 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 11
+[11-Jul-2020 11:53:23 Europe/Paris] PHP Notice:  Undefined index: img2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 12
+[11-Jul-2020 11:53:23 Europe/Paris] PHP Notice:  Undefined index: img3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 13
+[11-Jul-2020 11:53:56 Europe/Paris] PHP Fatal error:  Uncaught Error: Call to undefined method App\App::getInstace() in /home/c1144147c/public_html/ressouces/views/admin/pages/Publication/publication.php:3
+Stack trace:
+#0 /home/c1144147c/public_html/index.php(109): require()
+#1 {main}
+  thrown in /home/c1144147c/public_html/ressouces/views/admin/pages/Publication/publication.php on line 3
+[11-Jul-2020 11:59:33 Europe/Paris] PHP Notice:  Undefined index: lastprice in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 7
+[11-Jul-2020 11:59:33 Europe/Paris] PHP Notice:  Undefined index: img1 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 11
+[11-Jul-2020 11:59:33 Europe/Paris] PHP Notice:  Undefined index: img2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 12
+[11-Jul-2020 11:59:33 Europe/Paris] PHP Notice:  Undefined index: img3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php on line 13
+[11-Jul-2020 12:08:58 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('19')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[11-Jul-2020 13:02:38 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'prix_ui' at row 1 in /home/c1144147c/core/Database/MysqlDatabase.php:74
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(74): PDOStatement->execute(Array)
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare('UPDATE  t_appro...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(56): Core\Table\Table->query('UPDATE  t_appro...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(71): Core\Table\Table->update('49', Array)
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 74
+[12-Jul-2020 13:58:37 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[12-Jul-2020 13:58:37 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[12-Jul-2020 13:58:37 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[12-Jul-2020 13:59:57 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[12-Jul-2020 13:59:57 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[12-Jul-2020 13:59:57 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[19-Jul-2020 20:43:29 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[19-Jul-2020 20:43:29 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[19-Jul-2020 20:43:29 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[26-Jul-2020 01:32:11 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[26-Jul-2020 01:32:11 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[26-Jul-2020 01:32:11 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[26-Jul-2020 01:32:48 Europe/Paris] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/c1144147c/core/Database/MysqlDatabase.php:97
+Stack trace:
+#0 /home/c1144147c/core/Database/MysqlDatabase.php(97): PDOStatement->fetch()
+#1 /home/c1144147c/core/Table/Table.php(81): Core\Database\MysqlDatabase->prepare(' DELETE FROM  t...', Array, 'App\\Entity\\Prov...', true)
+#2 /home/c1144147c/core/Table/Table.php(42): Core\Table\Table->query(' DELETE FROM  t...', Array, true)
+#3 /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/approvisionnement/approvisionner.php(89): Core\Table\Table->delete('86')
+#4 /home/c1144147c/public_html/index.php(94): require('/home/c1144147c...')
+#5 {main}
+  thrown in /home/c1144147c/core/Database/MysqlDatabase.php on line 97
+[26-Jul-2020 01:38:25 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[26-Jul-2020 01:38:26 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[26-Jul-2020 01:38:26 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[26-Jul-2020 01:52:15 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[26-Jul-2020 01:52:15 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[26-Jul-2020 01:52:15 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[26-Jul-2020 01:54:32 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[26-Jul-2020 01:54:32 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[26-Jul-2020 01:54:32 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[26-Jul-2020 01:57:35 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[26-Jul-2020 01:57:35 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[26-Jul-2020 01:57:35 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[26-Jul-2020 02:03:52 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[26-Jul-2020 02:03:52 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[26-Jul-2020 02:03:52 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[26-Jul-2020 02:06:07 Europe/Paris] PHP Notice:  Undefined variable: filenames in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 15
+[26-Jul-2020 02:06:07 Europe/Paris] PHP Notice:  Undefined variable: filenames2 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 22
+[26-Jul-2020 02:06:07 Europe/Paris] PHP Notice:  Undefined variable: filenames3 in /home/c1144147c/public_html/ressouces/views/admin/pages/Produits/provision.php on line 30
+[06-Aug-2020 02:03:24 Europe/Paris] PHP Warning:  require(/home/c1144147c/ressouces/views/admin/pages/Login/login.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/admin.php on line 46
+[06-Aug-2020 02:03:24 Europe/Paris] PHP Warning:  require(/home/c1144147c/ressouces/views/admin/pages/Login/login.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/admin.php on line 46
+[06-Aug-2020 02:03:24 Europe/Paris] PHP Fatal error:  require(): Failed opening required '/home/c1144147c/ressouces/views/admin/pages/Login/login.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/public_html/admin.php on line 46

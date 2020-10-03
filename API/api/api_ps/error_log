@@ -1,0 +1,40 @@
+[28-Jan-2020 12:32:40 Europe/Paris] PHP Notice:  Undefined index: value in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 23
+[28-Jan-2020 12:32:40 Europe/Paris] PHP Notice:  Undefined index: value in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 26
+[28-Jan-2020 12:32:40 Europe/Paris] PHP Notice:  Undefined index: value in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 29
+[28-Jan-2020 12:32:40 Europe/Paris] PHP Warning:  mysqli::query(): Empty query in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 7
+[28-Jan-2020 12:32:40 Europe/Paris] PHP Notice:  Trying to get property of non-object in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 8
+[28-Jan-2020 13:27:44 Europe/Paris] PHP Notice:  Undefined index: value in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 23
+[28-Jan-2020 13:27:44 Europe/Paris] PHP Notice:  Undefined index: value in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 26
+[28-Jan-2020 13:27:44 Europe/Paris] PHP Notice:  Undefined index: value in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 29
+[28-Jan-2020 13:27:44 Europe/Paris] PHP Warning:  mysqli::query(): Empty query in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 7
+[28-Jan-2020 13:27:44 Europe/Paris] PHP Notice:  Trying to get property of non-object in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 8
+[28-Jan-2020 14:02:50 Europe/Paris] PHP Notice:  Undefined index: value in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 23
+[28-Jan-2020 14:02:50 Europe/Paris] PHP Notice:  Undefined index: value in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 26
+[28-Jan-2020 14:02:50 Europe/Paris] PHP Notice:  Undefined index: value in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 29
+[28-Jan-2020 14:02:50 Europe/Paris] PHP Warning:  mysqli::query(): Empty query in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 7
+[28-Jan-2020 14:02:50 Europe/Paris] PHP Notice:  Trying to get property of non-object in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 8
+[28-Jan-2020 14:14:18 Europe/Paris] PHP Notice:  Undefined index: value in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 23
+[28-Jan-2020 14:14:18 Europe/Paris] PHP Notice:  Undefined index: value in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 26
+[28-Jan-2020 14:14:18 Europe/Paris] PHP Notice:  Undefined index: value in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 29
+[28-Jan-2020 14:14:18 Europe/Paris] PHP Warning:  mysqli::query(): Empty query in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 7
+[28-Jan-2020 14:14:18 Europe/Paris] PHP Notice:  Trying to get property of non-object in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 8
+[04-Feb-2020 22:02:53 Europe/Paris] PHP Warning:  mysqli::__construct(): (HY000/2002): Can't connect to MySQL server on '192.168.43.11' (115) in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 12
+[04-Feb-2020 22:14:12 Europe/Paris] PHP Warning:  mysqli::query(): Empty query in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 7
+[04-Feb-2020 22:14:12 Europe/Paris] PHP Notice:  Trying to get property of non-object in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 8
+[04-Feb-2020 22:15:38 Europe/Paris] PHP Warning:  mysqli::query(): Empty query in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 7
+[04-Feb-2020 22:15:38 Europe/Paris] PHP Notice:  Trying to get property of non-object in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 8
+[05-Feb-2020 06:24:39 Europe/Paris] PHP Warning:  mysqli::query(): Empty query in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 13
+[05-Feb-2020 06:24:39 Europe/Paris] PHP Notice:  Trying to get property of non-object in /home/c1144147c/public_html/API/api_ps/boutique_app/get_data.php on line 16
+[05-Feb-2020 13:15:53 Europe/Paris] PHP Warning:  unserialize() expects parameter 1 to be string, array given in /home/c1144147c/public_html/API/api/api_ps/get_data.php on line 30
+[05-Feb-2020 13:49:32 Europe/Paris] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'alocalhost' (-2) in /home/c1144147c/public_html/API/api/api_ps/connection.php on line 23
+[05-Feb-2020 13:53:29 Europe/Paris] PHP Notice:  Undefined variable: array in /home/c1144147c/public_html/API/api/api_ps/get_data.php on line 69
+[05-Feb-2020 13:56:28 Europe/Paris] PHP Notice:  Undefined variable: array in /home/c1144147c/public_html/API/api/api_ps/get_data.php on line 69
+[05-Feb-2020 14:17:30 Europe/Paris] PHP Notice:  Undefined variable: array in /home/c1144147c/public_html/API/api/api_ps/get_data.php on line 69
+[05-Feb-2020 14:18:07 Europe/Paris] PHP Notice:  Undefined variable: array in /home/c1144147c/public_html/API/api/api_ps/get_data.php on line 69
+[05-Feb-2020 14:18:14 Europe/Paris] PHP Notice:  Undefined variable: array in /home/c1144147c/public_html/API/api/api_ps/get_data.php on line 69
+[05-Feb-2020 14:19:39 Europe/Paris] PHP Notice:  Undefined variable: array in /home/c1144147c/public_html/API/api/api_ps/get_data.php on line 69
+[06-Feb-2020 16:18:55 Europe/Paris] PHP Notice:  Undefined variable: data in /home/c1144147c/public_html/API/api/api_ps/get_data.php on line 24
+[06-Feb-2020 17:02:30 Europe/Paris] PHP Parse error:  syntax error, unexpected 'phpinfo' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/c1144147c/public_html/API/api/api_ps/get_data.php on line 7
+[06-Feb-2020 17:05:03 Europe/Paris] PHP Parse error:  syntax error, unexpected ')' in /home/c1144147c/public_html/API/api/api_ps/get_data.php on line 22
+[06-Feb-2020 17:07:26 Europe/Paris] PHP Notice:  Undefined variable: array in /home/c1144147c/public_html/API/api/api_ps/get_data.php on line 25
+[06-Feb-2020 17:07:42 Europe/Paris] PHP Notice:  Undefined variable: array in /home/c1144147c/public_html/API/api/api_ps/get_data.php on line 25

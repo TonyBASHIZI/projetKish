@@ -1,0 +1,271 @@
+<div id="product-form-quick-749339770937" class="product-quick-shop" style="width: 100%;">
+  <form class="variations_form product-form" id="product-form-quick-749339770937" action="https://woodmart-electronics.myshopify.com/cart/add" method="post" enctype="multipart/form-data" data-product-id="749339770937" data-id="id-a-primis-proin-dui"> 
+    <div class="product-options" > 
+      <select id="product-selectors-749339770937" name="id" style="display: none;">
+        
+        
+        <option  selected="selected"  value="7975425409081">L / Black - $159.00 USD</option>
+        
+        
+        
+        <option  value="7975425441849">L / Red - $159.00 USD</option>
+        
+        
+        
+        <option  value="7975425474617">L / Yellow - $159.00 USD</option>
+        
+        
+        
+        <option  value="7975425507385">XL / Black - $159.00 USD</option>
+        
+        
+        
+        <option  value="7975425540153">XL / Red - $159.00 USD</option>
+        
+        
+        
+        <option  value="7975425572921">XL / Yellow - $159.00 USD</option>
+        
+        
+        
+        <option  value="7975425605689">XXL / Black - $159.00 USD</option>
+        
+        
+        
+        <option  value="7975425638457">XXL / Red - $159.00 USD</option>
+        
+        
+        
+        <option  value="7975425671225">XXL / Yellow - $159.00 USD</option>
+        
+        
+      </select> 
+    </div>  
+    <div class="single_variation_wrap"> 
+      <div class="shopify-variation-add-to-cart variations_button shopify-variation-add-to-cart-disabled">
+        <div class="quantity"> 
+          <input type="text" id="qty" name="quantity" value="1" min="1" class="quantity-selector"> 
+          <div class="plus-minus">
+            <div class="increase items" onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN( qty )) result.value++;return false;">
+              <i class="icon-up-dir"></i>
+            </div>
+            <div class="reduced items" onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN( qty ) &amp;&amp; qty > 1 ) result.value--;return false;">
+              <i class="icon-down-dir"></i>
+            </div>
+          </div>
+        </div> 
+        <button type="submit" name="add" class="single_add_to_cart_button button">  
+          <span data-translate="products.product.add_to_cart">Add to Cart</span>
+        </button>
+      </div>
+    </div>
+  </form>   
+</div> 
+<style>
+  
+  .quick-shop-wrapper .product-options .selector-wrapper {
+    display: none;
+  }
+   
+</style>
+<script> 
+  Shopify.quickshopOptionsMap749339770937 = {};
+  Shopify.quickshopUpdateOptionsInSelector749339770937 = function(selectorIndex) { 
+    switch (selectorIndex) {
+      case 0:
+        var key = 'root';
+        var selector = jQuery('#product-form-quick-749339770937 .single-option-selector:eq(0)');
+        break;
+      case 1:
+        var key = jQuery('#product-form-quick-749339770937 .single-option-selector:eq(0)').val();
+        var selector = jQuery('#product-form-quick-749339770937 .single-option-selector:eq(1)');
+        break;
+      case 2:
+        var key = jQuery('#product-form-quick-749339770937 .single-option-selector:eq(0)').val();
+        key += ' / ' + jQuery('#product-form-quick-749339770937 .single-option-selector:eq(1)').val();
+        var selector = jQuery('#product-form-quick-749339770937 .single-option-selector:eq(2)');
+    }
+
+    var initialValue = selector.val();
+    selector.empty();
+    var availableOptions = Shopify.quickshopOptionsMap749339770937[key];
+    if (availableOptions && availableOptions.length) {
+      for (var i = 0; i < availableOptions.length; i++) {
+        var option = availableOptions[i];
+        var newOption = jQuery('<option></option>').val(option).html(option);
+        selector.append(newOption);
+      }
+      jQuery('#product-form-quick-749339770937 .swatch[data-option-index="' + selectorIndex + '"] .swatch-element').each(function() {
+        if (jQuery.inArray(jQuery(this).attr('data-value'), availableOptions) !== -1) {
+          jQuery(this).removeClass('soldout').show().find(':radio').removeAttr('disabled', 'disabled').removeAttr('checked');
+        } else {
+          jQuery(this).addClass('soldout').hide().find(':radio').removeAttr('checked').attr('disabled', 'disabled');
+        }
+      });
+      if (jQuery.inArray(initialValue, availableOptions) !== -1) {
+        selector.val(initialValue);
+      }
+      selector.trigger('change');
+    }
+  };
+  Shopify.quickshopLinkOptionSelectors749339770937 = function(product) {
+    // Building our mapping object.
+    for (var i = 0; i < product.variants.length; i++) {
+      var variant = product.variants[i];
+      //if (variant.available) {
+      // Gathering values for the 1st drop-down.
+      Shopify.quickshopOptionsMap749339770937['root'] = Shopify.quickshopOptionsMap749339770937['root'] || [];
+      Shopify.quickshopOptionsMap749339770937['root'].push(variant.option1);
+      Shopify.quickshopOptionsMap749339770937['root'] = Shopify.uniq(Shopify.quickshopOptionsMap749339770937['root']);
+      // Gathering values for the 2nd drop-down.
+      if (product.options.length > 1) {
+        var key = variant.option1;
+        Shopify.quickshopOptionsMap749339770937[key] = Shopify.quickshopOptionsMap749339770937[key] || [];
+        Shopify.quickshopOptionsMap749339770937[key].push(variant.option2);
+        Shopify.quickshopOptionsMap749339770937[key] = Shopify.uniq(Shopify.quickshopOptionsMap749339770937[key]);
+      }
+      // Gathering values for the 3rd drop-down.
+      if (product.options.length === 3) {
+        var key = variant.option1 + ' / ' + variant.option2;
+        Shopify.quickshopOptionsMap749339770937[key] = Shopify.quickshopOptionsMap749339770937[key] || [];
+        Shopify.quickshopOptionsMap749339770937[key].push(variant.option3);
+        Shopify.quickshopOptionsMap749339770937[key] = Shopify.uniq(Shopify.quickshopOptionsMap749339770937[key]);
+      }
+      //}
+    }
+    // Update options right away.
+    Shopify.quickshopUpdateOptionsInSelector749339770937(0);
+    if (product.options.length > 1) Shopify.quickshopUpdateOptionsInSelector749339770937(1);
+    if (product.options.length === 3) Shopify.quickshopUpdateOptionsInSelector749339770937(2);
+    // When there is an update in the first dropdown.
+    jQuery("#product-form-quick-749339770937 .single-option-selector:eq(0)").change(function() {
+      Shopify.quickshopUpdateOptionsInSelector749339770937(1);
+      if (product.options.length === 3) Shopify.quickshopUpdateOptionsInSelector749339770937(2);
+      return true;
+    });
+    // When there is an update in the second dropdown.
+    jQuery("#product-form-quick-749339770937 .single-option-selector:eq(1)").change(function() {
+      if (product.options.length === 3) Shopify.quickshopUpdateOptionsInSelector749339770937(2);
+      return true;
+    });
+
+  };
+  productsObj.id749339770937 = {"id":749339770937,"title":"Id a primis proin dui","handle":"id-a-primis-proin-dui","description":"[shortdesc]Id a primis proin dui nisl integer ut mollis a a mus ullamcorper malesuada morbi tellus scelerisque libero suspendisse non a magna a platea habitasse condimentum. Diam consequat a a mi suspendisse condimentum a scelerisque mattis ad justo[\/shortdesc] [additional]\n\u003ctable class=\"shop_attributes\"\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003cth\u003eBrand\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eMagisso\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eColor\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eBlack, Red, Yellow\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eSize\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eL, XL, XXL\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003c\/tbody\u003e\n\u003c\/table\u003e\n[\/additional]\n\u003cdiv class=\"\"\u003e\n\u003cdiv class=\"vc_row wpb_row vc_row-fluid\"\u003e\n\u003cdiv class=\"wpb_column vc_column_container vc_col-sm-12\"\u003e\n\u003cdiv class=\"vc_column-inner vc_custom_1493038156710\"\u003e\n\u003cdiv class=\"wpb_wrapper\"\u003e\n\u003cdiv id=\"woodmart-title-id-5a951eadcf47d\" class=\"title-wrapper  woodmart-title-color-default woodmart-title-style-default woodmart-title-size-small woodmart-title-width-100 text-left \"\u003e\n\u003cdiv class=\"liner-continer\"\u003e\n\u003cspan class=\"left-line\"\u003e\u003c\/span\u003e\n\u003ch4 class=\"woodmart-title-container title  woodmart-font-weight-\"\u003eIMPERDIET HIMENAEOS MATTIS\u003c\/h4\u003e\n\u003cspan class=\"right-line\"\u003e\u003c\/span\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003cdiv class=\"vc_row wpb_row vc_row-fluid vc_row-o-content-top vc_row-flex\"\u003e\n\u003cdiv class=\"wpb_column vc_column_container vc_col-sm-12 vc_col-md-6\"\u003e\n\u003cdiv class=\"vc_column-inner \"\u003e\n\u003cdiv class=\"wpb_wrapper\"\u003e\n\u003cdiv class=\"wpb_text_column wpb_content_element \"\u003e\n\u003cdiv class=\"wpb_wrapper\"\u003e\n\u003cp\u003eA a at habitasse inceptos a quisque nibh ut arcu et dictum laoreet elit ante scelerisque libero consectetur erat non a suspendisse ad phasellus phasellus suspendisse gravida eu. Dapibus congue libero sem at dis a a adipiscing parturient eros diam parturient sodales consectetur quis.\u003c\/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eConsequat blandit a ullamcorper vestibulum feugiat eu a parturient ante at facilisi suscipit quis gravida tempor fringilla etiam dolor id suspendisse adipiscing natoque scelerisque es vivamus sed massa.\u003c\/p\u003e\n\u003c\/blockquote\u003e\n\u003cp\u003eA sodales hac dolor parturient tincidunt dictumst a condimentum nunc auctor parturient a nibh dis a vestibulum arcu a a. Urna rhoncus eleifend parturient condimentum et vulputate nunc. Ut dolor condimentum hendrerit non mattis a commodo sociis mi nec rutrum parturient litora.\u003c\/p\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003cdiv class=\"wpb_column vc_column_container vc_col-sm-12 vc_col-md-6\"\u003e\n\u003cdiv class=\"vc_column-inner \"\u003e\n\u003cdiv class=\"wpb_wrapper\"\u003e\n\u003cdiv class=\"wpb_single_image wpb_content_element vc_align_left\"\u003e\n\u003cfigure class=\"wpb_wrapper vc_figure\"\u003e\n\u003cdiv class=\"vc_single_image-wrapper   vc_box_border_grey\"\u003e\u003cimg width=\"750\" height=\"373\" src=\"https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3.jpg\" class=\"vc_single_image-img attachment-full\" alt=\"\" srcset=\"https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3.jpg 750w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-150x75.jpg 150w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-400x199.jpg 400w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-100x50.jpg 100w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-200x99.jpg 200w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-430x214.jpg 430w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-700x348.jpg 700w\" sizes=\"(max-width: 750px) 100vw, 750px\"\u003e\u003c\/div\u003e\n\u003c\/figure\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e","published_at":"2018-05-10T00:33:36-04:00","created_at":"2018-05-10T00:33:37-04:00","vendor":"Woodmart-Default","type":"","tags":["Beige","Black","Furniture","L","lighting","red","Shop","Women","XL","XXL","Yellow"],"price":15900,"price_min":15900,"price_max":15900,"available":true,"price_varies":false,"compare_at_price":null,"compare_at_price_min":0,"compare_at_price_max":0,"compare_at_price_varies":false,"variants":[{"id":7975425409081,"title":"L \/ Black","option1":"L","option2":"Black","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742167097,"product_id":749339770937,"position":1,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_2_e1ae8f72-604b-4681-8be4-ade010ddc837.jpg?v=1525926817","variant_ids":[7975425409081,7975425572921]},"available":true,"name":"Id a primis proin dui - L \/ Black","public_title":"L \/ Black","options":["L","Black"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""},{"id":7975425441849,"title":"L \/ Red","option1":"L","option2":"Red","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742199865,"product_id":749339770937,"position":2,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_3.jpg?v=1525926817","variant_ids":[7975425441849,7975425540153,7975425671225]},"available":true,"name":"Id a primis proin dui - L \/ Red","public_title":"L \/ Red","options":["L","Red"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""},{"id":7975425474617,"title":"L \/ Yellow","option1":"L","option2":"Yellow","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742265401,"product_id":749339770937,"position":3,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_4.jpg?v=1525926817","variant_ids":[7975425474617,7975425605689]},"available":true,"name":"Id a primis proin dui - L \/ Yellow","public_title":"L \/ Yellow","options":["L","Yellow"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""},{"id":7975425507385,"title":"XL \/ Black","option1":"XL","option2":"Black","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742298169,"product_id":749339770937,"position":4,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9.jpg?v=1525926817","variant_ids":[7975425507385,7975425638457]},"available":true,"name":"Id a primis proin dui - XL \/ Black","public_title":"XL \/ Black","options":["XL","Black"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""},{"id":7975425540153,"title":"XL \/ Red","option1":"XL","option2":"Red","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742199865,"product_id":749339770937,"position":2,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_3.jpg?v=1525926817","variant_ids":[7975425441849,7975425540153,7975425671225]},"available":true,"name":"Id a primis proin dui - XL \/ Red","public_title":"XL \/ Red","options":["XL","Red"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""},{"id":7975425572921,"title":"XL \/ Yellow","option1":"XL","option2":"Yellow","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742167097,"product_id":749339770937,"position":1,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_2_e1ae8f72-604b-4681-8be4-ade010ddc837.jpg?v=1525926817","variant_ids":[7975425409081,7975425572921]},"available":true,"name":"Id a primis proin dui - XL \/ Yellow","public_title":"XL \/ Yellow","options":["XL","Yellow"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""},{"id":7975425605689,"title":"XXL \/ Black","option1":"XXL","option2":"Black","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742265401,"product_id":749339770937,"position":3,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_4.jpg?v=1525926817","variant_ids":[7975425474617,7975425605689]},"available":true,"name":"Id a primis proin dui - XXL \/ Black","public_title":"XXL \/ Black","options":["XXL","Black"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""},{"id":7975425638457,"title":"XXL \/ Red","option1":"XXL","option2":"Red","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742298169,"product_id":749339770937,"position":4,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9.jpg?v=1525926817","variant_ids":[7975425507385,7975425638457]},"available":true,"name":"Id a primis proin dui - XXL \/ Red","public_title":"XXL \/ Red","options":["XXL","Red"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""},{"id":7975425671225,"title":"XXL \/ Yellow","option1":"XXL","option2":"Yellow","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742199865,"product_id":749339770937,"position":2,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_3.jpg?v=1525926817","variant_ids":[7975425441849,7975425540153,7975425671225]},"available":true,"name":"Id a primis proin dui - XXL \/ Yellow","public_title":"XXL \/ Yellow","options":["XXL","Yellow"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""}],"images":["\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_2_e1ae8f72-604b-4681-8be4-ade010ddc837.jpg?v=1525926817","#\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_3.jpg?v=1525926817","#\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_4.jpg?v=1525926817","\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9.jpg?v=1525926817"],"featured_image":"\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_2_e1ae8f72-604b-4681-8be4-ade010ddc837.jpg?v=1525926817","options":["Size","Color"],"content":"[shortdesc]Id a primis proin dui nisl integer ut mollis a a mus ullamcorper malesuada morbi tellus scelerisque libero suspendisse non a magna a platea habitasse condimentum. Diam consequat a a mi suspendisse condimentum a scelerisque mattis ad justo[\/shortdesc] [additional]\n\u003ctable class=\"shop_attributes\"\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003cth\u003eBrand\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eMagisso\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eColor\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eBlack, Red, Yellow\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eSize\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eL, XL, XXL\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003c\/tbody\u003e\n\u003c\/table\u003e\n[\/additional]\n\u003cdiv class=\"\"\u003e\n\u003cdiv class=\"vc_row wpb_row vc_row-fluid\"\u003e\n\u003cdiv class=\"wpb_column vc_column_container vc_col-sm-12\"\u003e\n\u003cdiv class=\"vc_column-inner vc_custom_1493038156710\"\u003e\n\u003cdiv class=\"wpb_wrapper\"\u003e\n\u003cdiv id=\"woodmart-title-id-5a951eadcf47d\" class=\"title-wrapper  woodmart-title-color-default woodmart-title-style-default woodmart-title-size-small woodmart-title-width-100 text-left \"\u003e\n\u003cdiv class=\"liner-continer\"\u003e\n\u003cspan class=\"left-line\"\u003e\u003c\/span\u003e\n\u003ch4 class=\"woodmart-title-container title  woodmart-font-weight-\"\u003eIMPERDIET HIMENAEOS MATTIS\u003c\/h4\u003e\n\u003cspan class=\"right-line\"\u003e\u003c\/span\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003cdiv class=\"vc_row wpb_row vc_row-fluid vc_row-o-content-top vc_row-flex\"\u003e\n\u003cdiv class=\"wpb_column vc_column_container vc_col-sm-12 vc_col-md-6\"\u003e\n\u003cdiv class=\"vc_column-inner \"\u003e\n\u003cdiv class=\"wpb_wrapper\"\u003e\n\u003cdiv class=\"wpb_text_column wpb_content_element \"\u003e\n\u003cdiv class=\"wpb_wrapper\"\u003e\n\u003cp\u003eA a at habitasse inceptos a quisque nibh ut arcu et dictum laoreet elit ante scelerisque libero consectetur erat non a suspendisse ad phasellus phasellus suspendisse gravida eu. Dapibus congue libero sem at dis a a adipiscing parturient eros diam parturient sodales consectetur quis.\u003c\/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eConsequat blandit a ullamcorper vestibulum feugiat eu a parturient ante at facilisi suscipit quis gravida tempor fringilla etiam dolor id suspendisse adipiscing natoque scelerisque es vivamus sed massa.\u003c\/p\u003e\n\u003c\/blockquote\u003e\n\u003cp\u003eA sodales hac dolor parturient tincidunt dictumst a condimentum nunc auctor parturient a nibh dis a vestibulum arcu a a. Urna rhoncus eleifend parturient condimentum et vulputate nunc. Ut dolor condimentum hendrerit non mattis a commodo sociis mi nec rutrum parturient litora.\u003c\/p\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003cdiv class=\"wpb_column vc_column_container vc_col-sm-12 vc_col-md-6\"\u003e\n\u003cdiv class=\"vc_column-inner \"\u003e\n\u003cdiv class=\"wpb_wrapper\"\u003e\n\u003cdiv class=\"wpb_single_image wpb_content_element vc_align_left\"\u003e\n\u003cfigure class=\"wpb_wrapper vc_figure\"\u003e\n\u003cdiv class=\"vc_single_image-wrapper   vc_box_border_grey\"\u003e\u003cimg width=\"750\" height=\"373\" src=\"https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3.jpg\" class=\"vc_single_image-img attachment-full\" alt=\"\" srcset=\"https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3.jpg 750w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-150x75.jpg 150w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-400x199.jpg 400w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-100x50.jpg 100w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-200x99.jpg 200w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-430x214.jpg 430w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-700x348.jpg 700w\" sizes=\"(max-width: 750px) 100vw, 750px\"\u003e\u003c\/div\u003e\n\u003c\/figure\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e"};
+  selectCallback = function(variant, selector) {
+    if (variant) {
+      if (variant.available) {
+        if (variant.compare_at_price > variant.price) { 
+          $("#price").html('<del class="price_compare">' + Shopify.formatMoney(variant.compare_at_price, money_format) + "</del>" + '<div class="price">' + Shopify.formatMoney(variant.price, money_format) + "</div>")
+        } else {
+          $("#price").html('<div class="price">' + Shopify.formatMoney(variant.price, money_format) + "</div>");
+        }
+        woodmart_settings.enableCurrency && currenciesCallbackSpecial("#price span.money"),$(".single_add_to_cart_button").removeClass("disabled").removeAttr("disabled").html(window.inventory_text.add_to_cart);
+      }else{
+        $("#product-form-quick-749339770937 .single_add_to_cart_button").html(window.inventory_text.sold_out).addClass("disabled").attr("disabled", "disabled");
+      }
+      if(swatch_color_type == '1' || swatch_color_type == '2'){ 
+        var form = $('#' + selector.domIdPrefix).closest('form');
+        for (var i=0,length=variant.options.length; i<length; i++) {
+          var radioButton = form.find('.swatch[data-option-index="' + i + '"] :radio[value="' + variant.options[i] +'"]');
+          if (radioButton.size()) { 
+            radioButton.get(0).checked = true;
+          }
+        } 
+      }  
+    }  
+  };
+  convertToSlug= function(e) { 
+    return e.toLowerCase().replace(/[^a-z0-9 -]/g, "").replace(/\s+/g, "-").replace(/-+/g, "-")
+  };
+  jQuery(function($) {
+     
+    var product = {"id":749339770937,"title":"Id a primis proin dui","handle":"id-a-primis-proin-dui","description":"[shortdesc]Id a primis proin dui nisl integer ut mollis a a mus ullamcorper malesuada morbi tellus scelerisque libero suspendisse non a magna a platea habitasse condimentum. Diam consequat a a mi suspendisse condimentum a scelerisque mattis ad justo[\/shortdesc] [additional]\n\u003ctable class=\"shop_attributes\"\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003cth\u003eBrand\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eMagisso\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eColor\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eBlack, Red, Yellow\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eSize\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eL, XL, XXL\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003c\/tbody\u003e\n\u003c\/table\u003e\n[\/additional]\n\u003cdiv class=\"\"\u003e\n\u003cdiv class=\"vc_row wpb_row vc_row-fluid\"\u003e\n\u003cdiv class=\"wpb_column vc_column_container vc_col-sm-12\"\u003e\n\u003cdiv class=\"vc_column-inner vc_custom_1493038156710\"\u003e\n\u003cdiv class=\"wpb_wrapper\"\u003e\n\u003cdiv id=\"woodmart-title-id-5a951eadcf47d\" class=\"title-wrapper  woodmart-title-color-default woodmart-title-style-default woodmart-title-size-small woodmart-title-width-100 text-left \"\u003e\n\u003cdiv class=\"liner-continer\"\u003e\n\u003cspan class=\"left-line\"\u003e\u003c\/span\u003e\n\u003ch4 class=\"woodmart-title-container title  woodmart-font-weight-\"\u003eIMPERDIET HIMENAEOS MATTIS\u003c\/h4\u003e\n\u003cspan class=\"right-line\"\u003e\u003c\/span\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003cdiv class=\"vc_row wpb_row vc_row-fluid vc_row-o-content-top vc_row-flex\"\u003e\n\u003cdiv class=\"wpb_column vc_column_container vc_col-sm-12 vc_col-md-6\"\u003e\n\u003cdiv class=\"vc_column-inner \"\u003e\n\u003cdiv class=\"wpb_wrapper\"\u003e\n\u003cdiv class=\"wpb_text_column wpb_content_element \"\u003e\n\u003cdiv class=\"wpb_wrapper\"\u003e\n\u003cp\u003eA a at habitasse inceptos a quisque nibh ut arcu et dictum laoreet elit ante scelerisque libero consectetur erat non a suspendisse ad phasellus phasellus suspendisse gravida eu. Dapibus congue libero sem at dis a a adipiscing parturient eros diam parturient sodales consectetur quis.\u003c\/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eConsequat blandit a ullamcorper vestibulum feugiat eu a parturient ante at facilisi suscipit quis gravida tempor fringilla etiam dolor id suspendisse adipiscing natoque scelerisque es vivamus sed massa.\u003c\/p\u003e\n\u003c\/blockquote\u003e\n\u003cp\u003eA sodales hac dolor parturient tincidunt dictumst a condimentum nunc auctor parturient a nibh dis a vestibulum arcu a a. Urna rhoncus eleifend parturient condimentum et vulputate nunc. Ut dolor condimentum hendrerit non mattis a commodo sociis mi nec rutrum parturient litora.\u003c\/p\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003cdiv class=\"wpb_column vc_column_container vc_col-sm-12 vc_col-md-6\"\u003e\n\u003cdiv class=\"vc_column-inner \"\u003e\n\u003cdiv class=\"wpb_wrapper\"\u003e\n\u003cdiv class=\"wpb_single_image wpb_content_element vc_align_left\"\u003e\n\u003cfigure class=\"wpb_wrapper vc_figure\"\u003e\n\u003cdiv class=\"vc_single_image-wrapper   vc_box_border_grey\"\u003e\u003cimg width=\"750\" height=\"373\" src=\"https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3.jpg\" class=\"vc_single_image-img attachment-full\" alt=\"\" srcset=\"https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3.jpg 750w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-150x75.jpg 150w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-400x199.jpg 400w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-100x50.jpg 100w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-200x99.jpg 200w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-430x214.jpg 430w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-700x348.jpg 700w\" sizes=\"(max-width: 750px) 100vw, 750px\"\u003e\u003c\/div\u003e\n\u003c\/figure\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e","published_at":"2018-05-10T00:33:36-04:00","created_at":"2018-05-10T00:33:37-04:00","vendor":"Woodmart-Default","type":"","tags":["Beige","Black","Furniture","L","lighting","red","Shop","Women","XL","XXL","Yellow"],"price":15900,"price_min":15900,"price_max":15900,"available":true,"price_varies":false,"compare_at_price":null,"compare_at_price_min":0,"compare_at_price_max":0,"compare_at_price_varies":false,"variants":[{"id":7975425409081,"title":"L \/ Black","option1":"L","option2":"Black","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742167097,"product_id":749339770937,"position":1,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_2_e1ae8f72-604b-4681-8be4-ade010ddc837.jpg?v=1525926817","variant_ids":[7975425409081,7975425572921]},"available":true,"name":"Id a primis proin dui - L \/ Black","public_title":"L \/ Black","options":["L","Black"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""},{"id":7975425441849,"title":"L \/ Red","option1":"L","option2":"Red","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742199865,"product_id":749339770937,"position":2,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_3.jpg?v=1525926817","variant_ids":[7975425441849,7975425540153,7975425671225]},"available":true,"name":"Id a primis proin dui - L \/ Red","public_title":"L \/ Red","options":["L","Red"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""},{"id":7975425474617,"title":"L \/ Yellow","option1":"L","option2":"Yellow","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742265401,"product_id":749339770937,"position":3,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_4.jpg?v=1525926817","variant_ids":[7975425474617,7975425605689]},"available":true,"name":"Id a primis proin dui - L \/ Yellow","public_title":"L \/ Yellow","options":["L","Yellow"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""},{"id":7975425507385,"title":"XL \/ Black","option1":"XL","option2":"Black","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742298169,"product_id":749339770937,"position":4,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9.jpg?v=1525926817","variant_ids":[7975425507385,7975425638457]},"available":true,"name":"Id a primis proin dui - XL \/ Black","public_title":"XL \/ Black","options":["XL","Black"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""},{"id":7975425540153,"title":"XL \/ Red","option1":"XL","option2":"Red","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742199865,"product_id":749339770937,"position":2,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_3.jpg?v=1525926817","variant_ids":[7975425441849,7975425540153,7975425671225]},"available":true,"name":"Id a primis proin dui - XL \/ Red","public_title":"XL \/ Red","options":["XL","Red"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""},{"id":7975425572921,"title":"XL \/ Yellow","option1":"XL","option2":"Yellow","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742167097,"product_id":749339770937,"position":1,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_2_e1ae8f72-604b-4681-8be4-ade010ddc837.jpg?v=1525926817","variant_ids":[7975425409081,7975425572921]},"available":true,"name":"Id a primis proin dui - XL \/ Yellow","public_title":"XL \/ Yellow","options":["XL","Yellow"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""},{"id":7975425605689,"title":"XXL \/ Black","option1":"XXL","option2":"Black","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742265401,"product_id":749339770937,"position":3,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_4.jpg?v=1525926817","variant_ids":[7975425474617,7975425605689]},"available":true,"name":"Id a primis proin dui - XXL \/ Black","public_title":"XXL \/ Black","options":["XXL","Black"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""},{"id":7975425638457,"title":"XXL \/ Red","option1":"XXL","option2":"Red","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742298169,"product_id":749339770937,"position":4,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9.jpg?v=1525926817","variant_ids":[7975425507385,7975425638457]},"available":true,"name":"Id a primis proin dui - XXL \/ Red","public_title":"XXL \/ Red","options":["XXL","Red"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""},{"id":7975425671225,"title":"XXL \/ Yellow","option1":"XXL","option2":"Yellow","option3":null,"sku":"","requires_shipping":true,"taxable":true,"featured_image":{"id":2795742199865,"product_id":749339770937,"position":2,"created_at":"2018-05-10T00:33:37-04:00","updated_at":"2018-05-10T00:33:37-04:00","alt":null,"width":1050,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_3.jpg?v=1525926817","variant_ids":[7975425441849,7975425540153,7975425671225]},"available":true,"name":"Id a primis proin dui - XXL \/ Yellow","public_title":"XXL \/ Yellow","options":["XXL","Yellow"],"price":15900,"weight":0,"compare_at_price":null,"inventory_management":"shopify","barcode":""}],"images":["\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_2_e1ae8f72-604b-4681-8be4-ade010ddc837.jpg?v=1525926817","#\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_3.jpg?v=1525926817","#\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_4.jpg?v=1525926817","\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9.jpg?v=1525926817"],"featured_image":"\/\/cdn.shopify.com\/s\/files\/1\/0002\/7525\/1257\/products\/furniture9_2_e1ae8f72-604b-4681-8be4-ade010ddc837.jpg?v=1525926817","options":["Size","Color"],"content":"[shortdesc]Id a primis proin dui nisl integer ut mollis a a mus ullamcorper malesuada morbi tellus scelerisque libero suspendisse non a magna a platea habitasse condimentum. Diam consequat a a mi suspendisse condimentum a scelerisque mattis ad justo[\/shortdesc] [additional]\n\u003ctable class=\"shop_attributes\"\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003cth\u003eBrand\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eMagisso\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eColor\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eBlack, Red, Yellow\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003ctr\u003e\n\u003cth\u003eSize\u003c\/th\u003e\n\u003ctd\u003e\n\u003cp\u003eL, XL, XXL\u003c\/p\u003e\n\u003c\/td\u003e\n\u003c\/tr\u003e\n\u003c\/tbody\u003e\n\u003c\/table\u003e\n[\/additional]\n\u003cdiv class=\"\"\u003e\n\u003cdiv class=\"vc_row wpb_row vc_row-fluid\"\u003e\n\u003cdiv class=\"wpb_column vc_column_container vc_col-sm-12\"\u003e\n\u003cdiv class=\"vc_column-inner vc_custom_1493038156710\"\u003e\n\u003cdiv class=\"wpb_wrapper\"\u003e\n\u003cdiv id=\"woodmart-title-id-5a951eadcf47d\" class=\"title-wrapper  woodmart-title-color-default woodmart-title-style-default woodmart-title-size-small woodmart-title-width-100 text-left \"\u003e\n\u003cdiv class=\"liner-continer\"\u003e\n\u003cspan class=\"left-line\"\u003e\u003c\/span\u003e\n\u003ch4 class=\"woodmart-title-container title  woodmart-font-weight-\"\u003eIMPERDIET HIMENAEOS MATTIS\u003c\/h4\u003e\n\u003cspan class=\"right-line\"\u003e\u003c\/span\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003cdiv class=\"vc_row wpb_row vc_row-fluid vc_row-o-content-top vc_row-flex\"\u003e\n\u003cdiv class=\"wpb_column vc_column_container vc_col-sm-12 vc_col-md-6\"\u003e\n\u003cdiv class=\"vc_column-inner \"\u003e\n\u003cdiv class=\"wpb_wrapper\"\u003e\n\u003cdiv class=\"wpb_text_column wpb_content_element \"\u003e\n\u003cdiv class=\"wpb_wrapper\"\u003e\n\u003cp\u003eA a at habitasse inceptos a quisque nibh ut arcu et dictum laoreet elit ante scelerisque libero consectetur erat non a suspendisse ad phasellus phasellus suspendisse gravida eu. Dapibus congue libero sem at dis a a adipiscing parturient eros diam parturient sodales consectetur quis.\u003c\/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eConsequat blandit a ullamcorper vestibulum feugiat eu a parturient ante at facilisi suscipit quis gravida tempor fringilla etiam dolor id suspendisse adipiscing natoque scelerisque es vivamus sed massa.\u003c\/p\u003e\n\u003c\/blockquote\u003e\n\u003cp\u003eA sodales hac dolor parturient tincidunt dictumst a condimentum nunc auctor parturient a nibh dis a vestibulum arcu a a. Urna rhoncus eleifend parturient condimentum et vulputate nunc. Ut dolor condimentum hendrerit non mattis a commodo sociis mi nec rutrum parturient litora.\u003c\/p\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003cdiv class=\"wpb_column vc_column_container vc_col-sm-12 vc_col-md-6\"\u003e\n\u003cdiv class=\"vc_column-inner \"\u003e\n\u003cdiv class=\"wpb_wrapper\"\u003e\n\u003cdiv class=\"wpb_single_image wpb_content_element vc_align_left\"\u003e\n\u003cfigure class=\"wpb_wrapper vc_figure\"\u003e\n\u003cdiv class=\"vc_single_image-wrapper   vc_box_border_grey\"\u003e\u003cimg width=\"750\" height=\"373\" src=\"https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3.jpg\" class=\"vc_single_image-img attachment-full\" alt=\"\" srcset=\"https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3.jpg 750w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-150x75.jpg 150w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-400x199.jpg 400w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-100x50.jpg 100w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-200x99.jpg 200w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-430x214.jpg 430w, https:\/\/wood.r.worldssl.net\/wp-content\/uploads\/2016\/09\/chair-schematics-3-700x348.jpg 700w\" sizes=\"(max-width: 750px) 100vw, 750px\"\u003e\u003c\/div\u003e\n\u003c\/figure\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e\n\u003c\/div\u003e"};
+    var layout = $('#product-form-quick-749339770937'); 
+    if (product.variants.length >= 1) { //multiple variants
+      for (var i = 0; i < product.variants.length; i++) {
+        var variant = product.variants[i];
+        var option = '<option value="' + variant.id + '">' + variant.title + '</option>'; 
+        layout.find('form.product-form > select').append(option);
+      }
+      new Shopify.OptionSelectors("product-selectors-749339770937", {
+        product: product,
+        onVariantSelected: selectCallback, 
+        enableHistoryState: true
+      });  
+      var filePath = asset_url.substring(0, asset_url.lastIndexOf('../index.html'));
+      var assetUrl = asset_url.substring(0, asset_url.lastIndexOf('../index.html'));
+      var options = ""; 
+      for (var i = 0; i < product.options.length; i++) {
+        options += '<div class="swatch clearfix" data-option-index="' + i + '">';
+        options += '<div class="header">' + product.options[i] + ': </div>'; 
+        options += '<div class="swatch-content">';
+        var is_color = false;
+        var is_circle = 'circle';
+        if (/Color|Colour/i.test(product.options[i])) {
+          is_color = true;
+        }
+        if (swatch_color_type == '2') {
+          is_color = false;
+          is_circle = '';
+        } 
+        var optionValues = new Array();
+        for (var j = 0; j < product.variants.length; j++) {
+          var variant = product.variants[j];
+          var value = variant.options[i];
+          if(variant.featured_image && woodmart_settings.product_data.product_swatch_setting == '2'){ 
+            var img = variant.featured_image.src.lastIndexOf("."); 
+            var vimg = variant.featured_image.src.slice(0, img) + "_50x50_crop_center" + variant.featured_image.src.slice(img); 
+          } 
+          var valueHandle = convertToSlug(value);
+          var forText = 'swatch-749339770937-' + i + '-' + valueHandle; 
+          if (optionValues.indexOf(value) < 0) { 
+            options += '<div data-value="' + value + '" class="swatch-element '+is_circle+' '+product_swatch_size+' '+(is_color ? "color" : "")+' ' + (is_color ? "color" : "") + valueHandle + (variant.available ? ' available ' : ' soldout ') + '">';
+            if (is_color) {
+              options += '<div class="tooltip">' + value + '</div>';
+            }
+            options += '<input id="' + forText + '" type="radio" name="option-' + i + '" value="' + value + '" ' + (j == 0 ? ' checked ' : '') + (variant.available ? '' : ' disabled') + ' />';
+            if (is_color) {
+              if(vimg && woodmart_settings.product_data.product_swatch_setting == '2'){ 
+                options += '<label for="' + forText + '" class="variant-image"><img src="' + vimg + '" class="variant-image" style="max-width:100%;" /><img class="crossed-out" src="' + assetUrl + 'soldout.png" /></label>';
+              }else{
+                options += '<label for="' + forText + '" style="background-color: ' + valueHandle + '; background-image: url(' + filePath + valueHandle + '.png)"><img class="crossed-out" src="' + assetUrl + 'soldout.png" /></label>';
+              }
+            } else {
+              options += '<label for="' + forText + '">' + value + '<img class="crossed-out" src="' + assetUrl + 'soldout.png" /></label>';
+            }
+            options += '</div>';
+            if (variant.available) {
+              $('#product-form-quick-749339770937 .swatch[data-option-index="' + i + '"] .' + valueHandle).removeClass('soldout').addClass('available').find(':radio').removeAttr('disabled');
+            }
+            optionValues.push(value);
+          }
+        } 
+        options += '</div>';
+        options += '</div>';
+      }  
+      if(swatch_color_type == '1' || swatch_color_type == '2'){ 
+        layout.find('form.product-form .product-options > select').after(options);
+        layout.find('.swatch :radio').change(function() {
+          var optionIndex = $(this).closest('.swatch').attr('data-option-index');
+          var optionValue = $(this).val(); 
+          $(this)
+          .closest('form')
+          .find('.single-option-selector')
+          .eq(optionIndex)
+          .val(optionValue)
+          .trigger('change');
+        }); 
+      } 
+      if (product.available) {
+        Shopify.quickshopOptionsMap749339770937 = {};
+        Shopify.quickshopLinkOptionSelectors749339770937(product);
+      }
+    } else { //single variant
+      layout.find('form.product-form .product-options > select').remove();
+      var variant_field = '<input type="hidden" name="id" value="' + product.variants[0].id + '">';
+      layout.find('form.product-form').append(variant_field);
+    }
+     
+  });
+</script> 
+

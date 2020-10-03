@@ -1,0 +1,36 @@
+body
+{
+	font-family: 'Century Gothic';
+	width: 100%;
+	height: 100%;
+	background-size:cover;
+	background-repeat: no-repeat;
+	color: black;
+}
+div{
+	color: black;
+}
+
+.left-side{
+	background:black;
+	height: 100%;
+	padding:0px;
+	margin: 0px;
+}
+.logo{
+
+	background:rgba(24,24,24,1);
+}
+.title{
+	display:block;
+	background:rgba(200,200,200,0.4);
+	padding:10px;
+	border-radius: 5px;
+}
+.detailCmd tr{
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	/*background: rgba(24,24,24,0.05);*/
+}
+.detailCmd tr td{
+	padding: 10px;
+}

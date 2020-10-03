@@ -1,0 +1,32 @@
+[05-Feb-2020 13:56:48 Europe/Paris] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 3
+[05-Feb-2020 13:56:48 Europe/Paris] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 3
+[05-Feb-2020 13:56:48 Europe/Paris] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 3
+[05-Feb-2020 13:56:48 Europe/Paris] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 13:56:48 Europe/Paris] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 13:56:48 Europe/Paris] PHP Notice:  Use of undefined constant DB_PASS - assumed 'DB_PASS' in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 13:56:48 Europe/Paris] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 13:56:48 Europe/Paris] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'DB_HOST' (-2) in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 14:17:13 Europe/Paris] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 3
+[05-Feb-2020 14:17:13 Europe/Paris] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 3
+[05-Feb-2020 14:17:13 Europe/Paris] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 3
+[05-Feb-2020 14:17:13 Europe/Paris] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 14:17:13 Europe/Paris] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 14:17:13 Europe/Paris] PHP Notice:  Use of undefined constant DB_PASS - assumed 'DB_PASS' in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 14:17:13 Europe/Paris] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 14:17:13 Europe/Paris] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'DB_HOST' (-2) in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 14:17:18 Europe/Paris] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 3
+[05-Feb-2020 14:17:18 Europe/Paris] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 3
+[05-Feb-2020 14:17:18 Europe/Paris] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 3
+[05-Feb-2020 14:17:18 Europe/Paris] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 14:17:18 Europe/Paris] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 14:17:18 Europe/Paris] PHP Notice:  Use of undefined constant DB_PASS - assumed 'DB_PASS' in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 14:17:18 Europe/Paris] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 14:17:18 Europe/Paris] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'DB_HOST' (-2) in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 14:17:26 Europe/Paris] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 3
+[05-Feb-2020 14:17:26 Europe/Paris] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 3
+[05-Feb-2020 14:17:26 Europe/Paris] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 3
+[05-Feb-2020 14:17:26 Europe/Paris] PHP Notice:  Use of undefined constant DB_HOST - assumed 'DB_HOST' in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 14:17:26 Europe/Paris] PHP Notice:  Use of undefined constant DB_USER - assumed 'DB_USER' in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 14:17:26 Europe/Paris] PHP Notice:  Use of undefined constant DB_PASS - assumed 'DB_PASS' in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 14:17:26 Europe/Paris] PHP Notice:  Use of undefined constant DB_NAME - assumed 'DB_NAME' in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23
+[05-Feb-2020 14:17:26 Europe/Paris] PHP Warning:  mysqli::__construct(): (HY000/2005): Unknown MySQL server host 'DB_HOST' (-2) in /home/c1144147c/public_html/API/api_ps/boutique_app/connection.php on line 23

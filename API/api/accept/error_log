@@ -1,0 +1,14 @@
+[22-Nov-2019 16:44:26 Europe/Paris] PHP Notice:  Undefined index: reference in /home/c1144147c/public_html/API/api/accept/acceptUrl.php on line 26
+[22-Nov-2019 16:45:25 Europe/Paris] PHP Notice:  Undefined index: reference in /home/c1144147c/public_html/API/api/accept/acceptUrl.php on line 26
+[22-Nov-2019 18:10:03 Europe/Paris] PHP Notice:  Undefined index: reference in /home/c1144147c/public_html/API/api/accept/acceptUrl.php on line 26
+[22-Nov-2019 18:10:17 Europe/Paris] PHP Notice:  Undefined index: reference in /home/c1144147c/public_html/API/api/accept/acceptUrl.php on line 26
+[22-Nov-2019 18:12:22 Europe/Paris] PHP Notice:  Undefined index: reference in /home/c1144147c/public_html/API/api/accept/acceptUrl.php on line 26
+[22-Nov-2019 18:22:49 Europe/Paris] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/c1144147c/public_html/API/api/accept/failUrl.php on line 31
+[22-Nov-2019 18:23:26 Europe/Paris] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/c1144147c/public_html/API/api/accept/failUrl.php on line 31
+[22-Nov-2019 18:29:58 Europe/Paris] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/c1144147c/public_html/API/api/accept/failUrl.php on line 31
+[22-Nov-2019 18:31:44 Europe/Paris] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/c1144147c/public_html/API/api/accept/failUrl.php on line 31
+[22-Nov-2019 18:33:08 Europe/Paris] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/c1144147c/public_html/API/api/accept/failUrl.php on line 31
+[22-Nov-2019 18:34:41 Europe/Paris] PHP Notice:  Undefined index: etat in /home/c1144147c/public_html/API/api/accept/failUrl.php on line 55
+[23-Nov-2019 17:22:38 Europe/Paris] PHP Notice:  Undefined index: reference in /home/c1144147c/public_html/API/api/accept/acceptUrl.php on line 26
+[02-Dec-2019 10:11:33 Europe/Paris] PHP Notice:  Undefined index: reference in /home/c1144147c/public_html/API/api/accept/acceptUrl.php on line 26
+[02-Dec-2019 10:11:52 Europe/Paris] PHP Notice:  Undefined index: reference in /home/c1144147c/public_html/API/api/accept/acceptUrl.php on line 26
